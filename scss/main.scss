@@ -15,6 +15,8 @@ body {
 .container-large {
   max-width: 1170 / $width * 100vw;
   margin: 0 auto;
+  padding-left: 10 / $width * 100vw;
+  padding-right: 10 / $width * 100vw;
 }
 .header__wrapper-top {
   .inner {
@@ -35,25 +37,25 @@ body {
   p {
     font-family: Raleway;
     font-style: 500;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 16 / $width * 100vw;
+    line-height: 22 / $width * 100vw;
     color: #000;
   }
   a {
     font-family: Raleway;
     font-style: 700;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 18 / $width * 100vw;
+    line-height: 22 / $width * 100vw;
     color: #000;
   }
   img {
-    margin: 20px 0 0 0;
-    height: 70px;
+    margin: 20 / $width * 100vw 0 0 0;
+    height: 70 / $width * 100vw;
   }
 }
 .home-icon {
-  height: 30px;
-  width: 30px;
+  height: 30 / $width * 100vw;
+  width: 30 / $width * 100vw;
   color: #fff;
 }
 .dropdown {
@@ -61,9 +63,9 @@ body {
   background-color: #386641;
   max-width: 1920 / $width * 100vw;
   position: static;
-  top: 120px;
-  padding: 5px;
-  border: 2px solid #4caf50;
+  top: 120 / $width * 100vw;
+  padding: 5 / $width * 100vw;
+  border: 2 / $width * 100vw solid #4caf50;
   font-style: 600;
   left: 0;
   right: 0;
@@ -71,7 +73,7 @@ body {
   align-items: center;
   justify-content: space-around;
   z-index: 1000;
-  padding: 10px 7%;
+  padding: 10 / $width * 100vw 7%;
   .header__wrapper-bottom {
     ul {
       list-style: none;
@@ -79,8 +81,8 @@ body {
         position: relative;
         float: left;
         a {
-          font-size: 16px;
-          padding: 8px;
+          font-size: 16 / $width * 100vw;
+          padding: 8 / $width * 100vw;
           color: white;
           display: block;
           &:hover {
@@ -91,12 +93,12 @@ body {
         ul {
           position: absolute;
           left: 0;
-          width: 200px;
+          width: 200 / $width * 100vw;
           background-color: rgba(56, 102, 65, 0.795);
           display: none;
           li {
             width: 100%;
-            border-top: 1px solid rgba(56, 102, 65, 0.795);
+            border-top: 1 / $width * 100vw solid rgba(56, 102, 65, 0.795);
           }
         }
         &:hover {
@@ -110,15 +112,15 @@ body {
 }
 .section-hero {
   .btn {
-    margin-left: 350px;
+    margin-left: 350 / $width * 100vw;
   }
   max-width: 1920 / $width * 100vw;
   background-color: white;
-  padding: 0 20px 30px 0;
+  padding: 0 20 / $width * 100vw 30 / $width * 100vw 0;
 }
 .section-video {
   .btn {
-    margin-left: 350px;
+    margin-left: 350 / $width * 100vw;
   }
   max-width: 1920 / $width * 100vw;
   background-image: url("../images/Rectangle 101.png");
@@ -131,10 +133,10 @@ body {
   font-family: Raleway;
   background-color: yellow;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 20 / $width * 100vw;
   font-weight: 600;
-  padding: 16px 32px;
-  border-radius: 150px;
+  padding: 16 / $width * 100vw 32 / $width * 100vw;
+  border-radius: 150 / $width * 100vw;
   border: none;
   cursor: pointer;
   transition: all 0.3s;
@@ -145,10 +147,10 @@ body {
     font-family: Raleway;
     background-color: yellow;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 20 / $width * 100vw;
     font-weight: 600;
-    padding: 16px 32px;
-    border-radius: 150px;
+    padding: 16 / $width * 100vw 32 / $width * 100vw;
+    border-radius: 150 / $width * 100vw;
     border: none;
     cursor: pointer;
     transition: all 0.3s;
@@ -162,8 +164,8 @@ body {
     text-decoration: none;
     font-size: 2rem;
     font-weight: 600;
-    padding: 16px 32px;
-    border-radius: 150px;
+    padding: 16 / $width * 100vw 32 / $width * 100vw;
+    border-radius: 150 / $width * 100vw;
     border: none;
     cursor: pointer;
     transition: all 0.3s;
@@ -181,15 +183,15 @@ body {
   padding: 0 auto;
   display: grid;
   grid-template-columns: 2fr 3fr;
-  gap: 96px;
+  gap: 96 / $width * 100vw;
   align-items: center;
   justify-content: space-between;
 }
 .hero-description {
-  margin-left: 350px;
-  font-size: 20px;
+  margin-left: 350 / $width * 100vw;
+  font-size: 20 / $width * 100vw;
   line-height: 1.6;
-  margin-bottom: 48px;
+  margin-bottom: 48 / $width * 100vw;
 }
 .hero-img {
   width: 100%;
@@ -197,19 +199,19 @@ body {
 .heading-primary {
   font-weight: 700;
   color: #333;
-  letter-spacing: -0.5px;
-  font-size: 52px;
+  letter-spacing: -0.5 / $width * 100vw;
+  font-size: 52 / $width * 100vw;
   line-height: 1.05;
-  margin-left: 350px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-left: 350 / $width * 100vw;
+  margin-top: 32 / $width * 100vw;
+  margin-bottom: 32 / $width * 100vw;
 }
 .tag-title {
-  font-size: 22px;
+  font-size: 22 / $width * 100vw;
   line-height: 1.05;
-  margin-left: 350px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-left: 350 / $width * 100vw;
+  margin-top: 32 / $width * 100vwx;
+  margin-bottom: 32 / $width * 100vwx;
 }
 .section-quality {
   max-width: 1920 / $width * 100vw;
@@ -217,9 +219,9 @@ body {
   background-color: #dce4cc;
 }
 .container {
-  font-size: 14px;
+  font-size: 14 / $width * 100vw;
   text-transform: uppercase;
-  letter-spacing: 0.75px;
+  letter-spacing: 0.75 / $width * 100vw;
   font-weight: 500;
   text-align: center;
   color: #888;
@@ -236,27 +238,27 @@ body {
   grid-template-rows: 0.5fr 2fr;
   align-items: center;
   .hero-description {
-    font-size: 16px;
-    padding-top: 26px;
-    margin-left: 10px;
-    margin-right: 350px;
+    font-size: 16 / $width * 100vw;
+    padding-top: 26 / $width * 100vw;
+    margin-left: 10 / $width * 100vw;
+    margin-right: 350 / $width * 100vw;
   }
 }
 .color {
   background-color: rgba(242, 248, 244, 0.884);
 }
 .testimonials-container {
-  padding: 26px;
+  padding: 26 / $width * 100vw;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 .gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-  padding: 16px;
-  padding-left: 42px;
-  padding-right: 35px;
+  gap: 16 / $width * 100vw;
+  padding: 16 / $width * 100vw;
+  padding-left: 370 / $width * 100vw;
+  padding-right: 370 / $width * 100vw;
 }
 .gallery-item {
   overflow: hidden;
@@ -268,11 +270,11 @@ body {
 .gallery-content {
   font-family: Raleway;
   font-style: 500;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 16 / $width * 100vw;
+  line-height: 22 / $width * 100vw;
   color: #000;
-  min-height: 60px;
-  padding: 0 44px 0 20px;
+  min-height: 60 / $width * 100vw;
+  padding: 0 44 / $width * 100vw 0 20 / $width * 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -282,8 +284,8 @@ body {
 .tag {
   display: block;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 18 / $width * 100vw;
+  line-height: 22 / $width * 100vw;
   color: #202020;
 }
 .gallery-transform {
@@ -297,32 +299,32 @@ body {
 .video {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  gap: 96px;
+  gap: 96 / $width * 100vw;
   align-items: center;
   justify-content: space-between;
 }
 .video-primary {
-  font-size: 52px;
+  font-size: 52 / $width * 100vw;
   line-height: 1.05;
-  margin-left: 350px;
-  margin-right: 100px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-left: 350 / $width * 100vw;
+  margin-right: 100 / $width * 100vw;
+  margin-top: 32 / $width * 100vw;
+  margin-bottom: 32 / $width * 100vw;
   white-space: nowrap;
 }
 .video-description {
-  margin-left: 350px;
-  font-size: 20px;
+  margin-left: 350 / $width * 100vw;
+  font-size: 20 / $width * 100vw;
   line-height: 1.6;
-  margin-bottom: 28px;
+  margin-bottom: 28 / $width * 100vw;
 }
 .video-img {
   width: 70%;
-  border: 20px solid white;
+  border: 20 / $width * 100vw solid white;
 }
 .video-text-box {
   color: white;
-  padding: 16px;
+  padding: 16 / $width * 100vw;
   display: flexbox;
 }
 span {
@@ -331,55 +333,59 @@ span {
 }
 .vector-img {
   position: absolute;
-  bottom: 200px;
-  right: 450px;
+  bottom: 200 / $width * 100vw;
+  right: 450 / $width * 100vw;
   width: 1.5%;
 }
 
 .favorites {
   background: #f5f5f5;
   h2 {
-    font-size: 44px;
-    line-height: 52px;
+    font-size: 44 / $width * 100vw;
+    line-height: 52 / $width * 100vw;
     color: #202020;
-    margin-bottom: 50px;
+    margin-bottom: 50 / $width * 100vw;
   }
+}
+.container-large {
+  padding-left: 10 / $width * 100vw;
+  padding-right: 10 / $width * 100vw;
 }
 
 .favorites__body {
-  padding: 60px 0;
+  padding: 60 / $width * 100vw 0;
   text-align: center;
   width: 1170 / $width * 100vw;
 }
 .favorites__carousel {
-  margin-bottom: 30px;
+  margin-bottom: 30 / $width * 100vw;
   display: flex;
 }
 .tree {
   flex-shrink: 0;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  margin: 0 5 / $width * 100vw;
+  background-size: 140px 220px;
 }
+
 .tree__body {
   margin: 0 auto;
   position: relative;
-  padding: 30px 30px 25px;
+  padding: 30 / $width * 100vw 30 / $width * 100vw 25 / $width * 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 285px;
-  height: 410px;
+  width: 285 / $width * 100vw;
+  height: 410 / $width * 100vw;
   background-color: #eee;
-  border-radius: 10px;
+  border-radius: 10 / $width * 100vw;
   transition: 0.7s;
-  background-size: 222 / $width * 100vw;
-  background-repeat: no-repeat;
-  background-position: bottom;
   h3 {
     font-weight: 700;
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 22 / $width * 100vw;
+    line-height: 30 / $width * 100vw;
     color: #202020;
-    margin-bottom: 15px;
+    margin-bottom: 15 / $width * 100vw;
   }
   &:hover {
     background: #386641;
@@ -392,14 +398,9 @@ span {
   }
 }
 
-.sliders {
-  .tree:nth-child(3n + 1) {
-    background-image: url("../images/carousel/carousel_2.png");
-  }
-}
 .tree__img {
   position: absolute;
-  width: 225px;
+  width: 225 / $width * 100vw;
   bottom: 0;
   z-index: 1;
   transition: 0.7s;
@@ -418,14 +419,14 @@ span {
   z-index: 2;
   transition: 0.7s;
   p {
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 14 / $width * 100vw;
+    line-height: 21 / $width * 100vw;
     color: #fff;
     font-weight: 500;
   }
 }
 .tree__price {
-  margin-top: 7px;
+  margin-top: 7 / $width * 100vw;
   flex-grow: 1;
   display: flex;
   justify-content: space-between;
@@ -433,12 +434,12 @@ span {
   color: #fff;
   p {
     &:first-child {
-      line-height: 24px;
+      line-height: 24 / $width * 100vw;
       opacity: 0.6;
     }
     &:last-child {
-      font-size: 20px;
-      line-height: 30px;
+      font-size: 20 / $width * 100vw;
+      line-height: 30 / $width * 100vw;
     }
   }
 }
@@ -449,17 +450,17 @@ span {
 .sliders__prev,
 .sliders__next {
   transform: translate(-50%);
-  left: -32px;
+  left: -32 / $width * 100vw;
   background-color: transparent;
-  width: 27px;
-  height: 27px;
+  width: 27 / $width * 100vw;
+  height: 27 / $width * 100vw;
   align-self: center;
-  margin-right: 24px;
+  margin-right: 24 / $width * 100vw;
   cursor: pointer;
 }
 .sliders__next {
-  right: 32px;
+  right: 32 / $width * 100vw;
   margin-right: 0;
-  margin-left: 24px;
+  margin-left: 24 / $width * 100vw;
   transform: rotate(180deg) translate(-50%);
 }
