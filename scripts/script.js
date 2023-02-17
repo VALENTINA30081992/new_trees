@@ -43,3 +43,13 @@ $(".sliders").slick({
     // instead of a settings object
   ],
 });
+
+$(".testimonials__body").slick({
+  //dots: true,
+  infinite: true,
+  speed: 600,
+  nextArrow:
+    '<button type="button" class="testimonials__next"><img src="../images/icons/testimonials_prev.svg" alt="prev" /></button>',
+  prevArrow:
+    '<button type="button" class="testimonials__prev"><img src="../images/icons/testimonials_prev.svg" alt="prev" /></button>',
+});
