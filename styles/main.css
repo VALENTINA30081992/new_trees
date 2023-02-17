@@ -566,16 +566,16 @@ span {
   background-size: cover;
 }
 .subscribe__body {
-  padding: 50px 0 60px;
+  padding: 2.6041666667vw 0 3.125vw;
   text-align: center;
-  margin-right: 300px;
-  margin-left: 300px;
+  margin-right: 15.625vw;
+  margin-left: 15.625vw;
 }
 .subscribe__body h3 {
-  font-size: 44px;
-  line-height: 52px;
+  font-size: 2.2916666667vw;
+  line-height: 2.7083333333vw;
   font-weight: 500;
-  margin-bottom: 50px;
+  margin-bottom: 2.6041666667vw;
 }
 .subscribe__body span {
   font-weight: 700;
@@ -583,22 +583,22 @@ span {
 }
 .subscribe__row {
   position: relative;
-  height: 54px;
+  height: 2.8125vw;
 }
 .subscribe__row input {
   width: 100%;
-  padding: 16px 18px 16px 16px;
-  border-radius: 28px;
+  padding: 0.8333333333vw 0.9375vw 0.8333333333vw 0.8333333333vw;
+  border-radius: 1.4583333333vw;
   background: #dadada;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 0.9375vw;
+  line-height: 1.1458333333vw;
   color: #4b4b4b;
   outline: none;
 }
 .subscribe__row button {
-  min-height: 54px;
-  min-width: 230px;
-  border-radius: 140px;
+  min-height: 2.8125vw;
+  min-width: 11.9791666667vw;
+  border-radius: 7.2916666667vw;
 }
 .subscribe__btn {
   position: absolute;
@@ -611,10 +611,10 @@ span {
   background: #fff;
 }
 .footer__widgets {
-  padding: 50px 0 54px;
+  padding: 2.6041666667vw 0 2.8125vw;
 }
 .footer__copyright {
-  padding: 15px 0;
+  padding: 0.78125vw 0;
   background: #454751;
   font-weight: 400;
 }
@@ -622,16 +622,16 @@ span {
   text-align: center;
 }
 .footer__text, .footer__text a {
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 0.7291666667vw;
+  line-height: 1.3541666667vw;
   color: #c0c0c0;
 }
 .footer__text a:hover, .footer__text a a:hover {
   color: #fff;
 }
 .footer__terms, .footer__terms a {
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 0.625vw;
+  line-height: 1.0416666667vw;
   color: #adbdcc;
 }
 .footer__terms a:hover, .footer__terms a a:hover {
@@ -640,8 +640,8 @@ span {
 
 .widget a {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 35px;
+  font-size: 0.8333333333vw;
+  line-height: 1.8229166667vw;
   color: #000;
 }
 .widget a:hover {
@@ -649,23 +649,23 @@ span {
   color: #386641;
 }
 .widget__body {
-  margin-bottom: 35px;
-  line-height: 26px;
+  margin-bottom: 1.8229166667vw;
+  line-height: 1.3541666667vw;
 }
 .widget__body h2,
 .widget__body h3 {
-  margin-bottom: 15px;
-  font-size: 16px;
+  margin-bottom: 0.78125vw;
+  font-size: 0.8333333333vw;
   font-weight: 700;
-  line-height: 19px;
+  line-height: 0.9895833333vw;
   color: #386641;
   text-transform: uppercase;
 }
 .widget__body li {
-  line-height: 35px;
+  line-height: 1.8229166667vw;
 }
 .widget__body p {
-  margin-bottom: 35px;
+  margin-bottom: 1.8229166667vw;
 }
 .widget__body p:last-child {
   margin-bottom: 0;
@@ -680,9 +680,9 @@ span {
 }
 .widget__socials-ithem {
   flex-shrink: 0;
-  margin: 6px;
-  width: 42px;
-  height: 42px;
+  margin: 0.3125vw;
+  width: 2.1875vw;
+  height: 2.1875vw;
   border-radius: 50%;
   background: #ffd401;
   transition: 0.7s;
@@ -691,7 +691,7 @@ span {
   background: #386641;
 }
 .widget__socials-ithem img {
-  margin: 11px;
-  width: 20px;
-  height: 20px;
+  margin: 0.5729166667vw;
+  width: 1.0416666667vw;
+  height: 1.0416666667vw;
 }/*# sourceMappingURL=main.css.map */
