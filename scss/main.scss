@@ -47,6 +47,8 @@ body {
     font-size: 18 / $width * 100vw;
     line-height: 22 / $width * 100vw;
     color: #000;
+    text-decoration: none;
+    text-align: right;
   }
   img {
     margin: 20 / $width * 100vw 0 0 0;
@@ -226,7 +228,7 @@ body {
   }
 }
 .section-services {
-  background-image: url("../images/image 32.png");
+  background-image: url("../images/image\ 32.png");
   grid-template-rows: 0.5fr 2fr;
   align-items: center;
   .hero-description {
@@ -556,7 +558,6 @@ span {
 .subscribe {
   background: url("../images/image\ 32.png") no-repeat;
   background-size: cover;
-
   &__body {
     padding: 50 / $width * 100vw 0 60 / $width * 100vw;
     text-align: center;
@@ -592,8 +593,12 @@ span {
     }
     button {
       min-height: 54 / $width * 100vw;
-      min-width: 230 / $width * 100vw;
+      min-width: 240 / $width * 100vw;
       border-radius: 140 / $width * 100vw;
+      font-style: 600;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s;
     }
   }
   &__btn {
@@ -609,8 +614,12 @@ span {
   background: #fff;
 
   &__widgets {
-    padding: 50 / $width * 100vw 0 54 / $width * 100vw;
+    padding: 50 / $width * 100vw 300 / $width * 100vw 54 / $width * 100vw 300 /
+      $width * 100vw;
+    display: flex;
+    justify-content: space-around;
   }
+
   &__copyright {
     padding: 15 / $width * 100vw 0;
     background: #454751;
@@ -618,6 +627,8 @@ span {
   }
   &__row {
     text-align: center;
+    display: flex;
+    justify-content: space-around;
   }
 
   &__text,
@@ -648,6 +659,7 @@ span {
     font-size: 16 / $width * 100vw;
     line-height: 35 / $width * 100vw;
     color: #000;
+    text-decoration: none;
     &:hover {
       text-decoration: underline;
       color: #386641;
@@ -670,6 +682,7 @@ span {
 
     li {
       line-height: 35 / $width * 100vw;
+      list-style: none;
     }
 
     p {
@@ -680,13 +693,13 @@ span {
     }
 
     &--right {
-      text-align: left;
+      text-align: right;
       margin-bottom: 0;
     }
   }
   &__socials {
     display: flex;
-    justify-content: center;
+    justify-content: right;
   }
 
   &__socials-ithem {
@@ -695,8 +708,8 @@ span {
     width: 42 / $width * 100vw;
     height: 42 / $width * 100vw;
     border-radius: 50%;
-    background: #ffd401;
     transition: 0.7s;
+    background: #ffd401;
     &:hover {
       background: #386641;
     }
@@ -705,6 +718,7 @@ span {
       margin: 11 / $width * 100vw;
       width: 20 / $width * 100vw;
       height: 20 / $width * 100vw;
+      filter: brightness(0) invert(10);
     }
   }
 }
