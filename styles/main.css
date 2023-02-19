@@ -18,37 +18,50 @@ body {
   padding-right: 0.5208333333vw;
 }
 
-.header__wrapper-top .inner {
+.header__wrapper-top {
+  padding: 20px 0 0;
+}
+.header__wrapper-top__row {
+  padding-bottom: 20px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   max-width: 65.1041666667vw;
   margin: 0 auto;
+  color: #000;
+}
+.header__wrapper-top__logo {
+  text-align: center;
+}
+.header__wrapper-top__logo img {
+  height: 99px;
+}
+.header__wrapper-top__logo p {
+  text-transform: uppercase;
+  color: #000;
+}
+.header__adress, .header__work-time {
+  display: none;
+  color: #000;
 }
 
-.header .inner .item {
-  width: max-content;
-}
-.header p {
-  font-family: Raleway;
-  font-style: 500;
-  font-size: 0.8333333333vw;
-  line-height: 1.1458333333vw;
-  color: #000;
-}
-.header a {
-  font-family: Raleway;
-  font-style: 700;
-  font-size: 0.9375vw;
-  line-height: 1.1458333333vw;
-  color: #000;
+.telephone,
+.telephone a {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
   text-decoration: none;
-  text-align: right;
+  color: #202020;
+  text-align: end;
+  transition: 0.5s;
 }
-.header img {
-  margin: 1.0416666667vw 0 0 0;
-  height: 3.6458333333vw;
+.telephone:hover,
+.telephone a:hover {
+  text-decoration: none;
+  color: #386641;
 }
 
 .home-icon {
