@@ -60,7 +60,7 @@ button a {
   font-family: Raleway;
   background-color: yellow;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.0416666667vw;
   font-weight: 600;
   padding: 0.8333333333vw 1.6666666667vw;
   border-radius: 7.8125vw;
@@ -77,10 +77,10 @@ button a {
 }
 
 .header__wrapper-top {
-  padding: 20px 0 0;
+  padding: 1.0416666667vw 0 0;
 }
 .header__wrapper-top__row {
-  padding-bottom: 20px;
+  padding-bottom: 1.0416666667vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -95,7 +95,7 @@ button a {
   text-align: center;
 }
 .header__wrapper-top__logo img {
-  height: 99px;
+  height: 5.15625vw;
 }
 .header__wrapper-top__logo p {
   text-transform: uppercase;
@@ -109,8 +109,8 @@ button a {
 .telephone,
 .telephone a {
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 1.25vw;
+  line-height: 1.4583333333vw;
   text-decoration: none;
   color: #202020;
   text-align: end;
@@ -137,7 +137,7 @@ button a {
   padding: 0.2604166667vw;
   border: 0.1041666667vw solid #4caf50;
   font-style: 600;
-  left: 300px;
+  left: 15.625vw;
   right: 0;
   display: flex;
   align-items: center;
@@ -448,7 +448,7 @@ span {
   text-decoration: none;
   padding: 0 auto;
   margin-left: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0.5208333333vw;
   text-align: center;
   display: flex;
   align-self: center;
@@ -612,7 +612,7 @@ span {
   /*line-height: 52 / $width * 100vw;*/
   font-weight: 500;
   margin-bottom: 2.6041666667vw;
-  margin-left: 534px;
+  margin-left: 27.8125vw;
 }
 .subscribe__body span {
   font-weight: 700;
@@ -622,7 +622,7 @@ span {
   position: relative;
   /* height: 54 / $width * 100vw;*/
   max-width: 36.4583333333vw;
-  margin-left: 610px;
+  margin-left: 31.7708333333vw;
 }
 .subscribe__row input {
   width: 100%;

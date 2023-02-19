@@ -58,7 +58,7 @@ button a {
     font-family: Raleway;
     background-color: yellow;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 20 / $width * 100vw;
     font-weight: 600;
     padding: 16 / $width * 100vw 32 / $width * 100vw;
     border-radius: 150 / $width * 100vw;
@@ -76,9 +76,9 @@ button a {
 }
 .header {
   &__wrapper-top {
-    padding: 20px 0 0;
+    padding: 20 / $width * 100vw 0 0;
     &__row {
-      padding-bottom: 20px;
+      padding-bottom: 20 / $width * 100vw;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -92,7 +92,7 @@ button a {
     &__logo {
       text-align: center;
       img {
-        height: 99px;
+        height: 99 / $width * 100vw;
       }
       p {
         text-transform: uppercase;
@@ -109,8 +109,8 @@ button a {
 .telephone,
 .telephone a {
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 24 / $width * 100vw;
+  line-height: 28 / $width * 100vw;
   text-decoration: none;
   color: #202020;
   text-align: end;
@@ -134,7 +134,7 @@ button a {
   padding: 5 / $width * 100vw;
   border: 2 / $width * 100vw solid #4caf50;
   font-style: 600;
-  left: 300px;
+  left: 300 / $width * 100vw;
   right: 0;
   display: flex;
   align-items: center;
@@ -425,7 +425,7 @@ span {
     text-decoration: none;
     padding: 0 auto;
     margin-left: 0;
-    margin-bottom: 10px;
+    margin-bottom: 10 / $width * 100vw;
     text-align: center;
     display: flex;
     align-self: center;
@@ -597,7 +597,7 @@ span {
       /*line-height: 52 / $width * 100vw;*/
       font-weight: 500;
       margin-bottom: 50 / $width * 100vw;
-      margin-left: 534px;
+      margin-left: 534 / $width * 100vw;
     }
     span {
       font-weight: 700;
@@ -609,7 +609,7 @@ span {
     position: relative;
     /* height: 54 / $width * 100vw;*/
     max-width: 700 / $width * 100vw;
-    margin-left: 610px;
+    margin-left: 610 / $width * 100vw;
 
     input {
       width: 100%;
