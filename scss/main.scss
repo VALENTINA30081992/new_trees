@@ -365,7 +365,6 @@ span {
 .container-large {
   padding-left: 10 / $width * 100vw;
   padding-right: 10 / $width * 100vw;
-  background-color: cornflowerblue;
 }
 
 .favorites__body {
@@ -376,7 +375,6 @@ span {
 .favorites__carousel {
   margin-bottom: 30 / $width * 100vw;
   display: flex;
-  background-color: darksalmon;
   justify-content: space-between;
 }
 .tree {
@@ -385,7 +383,6 @@ span {
   /*margin: 0 auto;*/
   margin-right: 10 / $width * 100vw;
   background-size: 100 / $width * 100vw 200 / $width * 100vw;
-  background-color: #a9d16a;
 }
 
 .tree__body {
@@ -399,7 +396,6 @@ span {
   width: 270 / $width * 100vw;
   height: 380 / $width * 100vw;
   background-color: #eee;
-  background-color: aqua;
   border-radius: 10 / $width * 100vw;
   transition: 0.7s;
   h3 {

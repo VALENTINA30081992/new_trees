@@ -387,7 +387,6 @@ span {
 .container-large {
   padding-left: 0.5208333333vw;
   padding-right: 0.5208333333vw;
-  background-color: cornflowerblue;
 }
 
 .favorites__body {
@@ -399,7 +398,6 @@ span {
 .favorites__carousel {
   margin-bottom: 1.5625vw;
   display: flex;
-  background-color: darksalmon;
   justify-content: space-between;
 }
 
@@ -409,7 +407,6 @@ span {
   /*margin: 0 auto;*/
   margin-right: 0.5208333333vw;
   background-size: 5.2083333333vw 10.4166666667vw;
-  background-color: #a9d16a;
 }
 
 .tree__body {
@@ -422,7 +419,6 @@ span {
   width: 14.0625vw;
   height: 19.7916666667vw;
   background-color: #eee;
-  background-color: aqua;
   border-radius: 0.5208333333vw;
   transition: 0.7s;
 }
