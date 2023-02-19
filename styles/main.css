@@ -366,12 +366,15 @@ span {
   font-size: 2.2916666667vw;
   line-height: 2.7083333333vw;
   color: #202020;
-  margin-bottom: 2.6041666667vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 2.6041666667vw;
 }
 
 .container-large {
   padding-left: 0.5208333333vw;
   padding-right: 0.5208333333vw;
+  background-color: cornflowerblue;
 }
 
 .favorites__body {
@@ -383,25 +386,30 @@ span {
 .favorites__carousel {
   margin-bottom: 1.5625vw;
   display: flex;
+  background-color: darksalmon;
+  justify-content: space-between;
 }
 
 .tree {
+  display: flex;
   flex-shrink: 0;
   /*margin: 0 auto;*/
-  margin: 0 0.2604166667vw;
-  background-size: 7.2916666667vw 11.4583333333vw;
+  margin-right: 0.5208333333vw;
+  background-size: 5.2083333333vw 10.4166666667vw;
+  background-color: #a9d16a;
 }
 
 .tree__body {
   margin: 0 auto;
   position: relative;
-  padding: 1.5625vw 1.5625vw 1.3020833333vw;
+  /*padding: 10 / $width * 100vw 10 / $width * 100vw 10 / $width * 100vw;*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 14.84375vw;
-  height: 21.3541666667vw;
+  width: 14.0625vw;
+  height: 19.7916666667vw;
   background-color: #eee;
+  background-color: aqua;
   border-radius: 0.5208333333vw;
   transition: 0.7s;
 }

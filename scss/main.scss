@@ -348,12 +348,15 @@ span {
     font-size: 44 / $width * 100vw;
     line-height: 52 / $width * 100vw;
     color: #202020;
-    margin-bottom: 50 / $width * 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 50 / $width * 100vw;
   }
 }
 .container-large {
   padding-left: 10 / $width * 100vw;
   padding-right: 10 / $width * 100vw;
+  background-color: cornflowerblue;
 }
 
 .favorites__body {
@@ -364,24 +367,30 @@ span {
 .favorites__carousel {
   margin-bottom: 30 / $width * 100vw;
   display: flex;
+  background-color: darksalmon;
+  justify-content: space-between;
 }
 .tree {
+  display: flex;
   flex-shrink: 0;
   /*margin: 0 auto;*/
-  margin: 0 5 / $width * 100vw;
-  background-size: 140 / $width * 100vw 220 / $width * 100vw;
+  margin-right: 10 / $width * 100vw;
+  background-size: 100 / $width * 100vw 200 / $width * 100vw;
+  background-color: #a9d16a;
 }
 
 .tree__body {
   margin: 0 auto;
   position: relative;
-  padding: 30 / $width * 100vw 30 / $width * 100vw 25 / $width * 100vw;
+  /*padding: 10 / $width * 100vw 10 / $width * 100vw 10 / $width * 100vw;*/
   display: flex;
+
   flex-direction: column;
   justify-content: space-between;
-  width: 285 / $width * 100vw;
-  height: 410 / $width * 100vw;
+  width: 270 / $width * 100vw;
+  height: 380 / $width * 100vw;
   background-color: #eee;
+  background-color: aqua;
   border-radius: 10 / $width * 100vw;
   transition: 0.7s;
   h3 {
