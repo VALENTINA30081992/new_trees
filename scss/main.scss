@@ -18,6 +18,62 @@ body {
   padding-left: 10 / $width * 100vw;
   padding-right: 10 / $width * 100vw;
 }
+button,
+button a {
+  text-decoration: none;
+}
+.btn {
+  display: inline-block;
+  font-style: 600;
+  font-family: Raleway;
+  background-color: yellow;
+  text-decoration: none;
+  font-size: 20 / $width * 100vw;
+  font-weight: 600;
+  margin-left: 350 / $width * 100vw;
+  padding: 16 / $width * 100vw 32 / $width * 100vw;
+  border-radius: 150 / $width * 100vw;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: #fff;
+  &:link {
+    display: inline-block;
+    font-style: 600;
+    font-family: Raleway;
+    background-color: yellow;
+    text-decoration: none;
+    font-size: 20 / $width * 100vw;
+    font-weight: 600;
+    padding: 16 / $width * 100vw 32 / $width * 100vw;
+    border-radius: 150 / $width * 100vw;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #fff;
+  }
+  &:visited {
+    display: inline-block;
+    font-style: 600;
+    font-family: Raleway;
+    background-color: yellow;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 16 / $width * 100vw 32 / $width * 100vw;
+    border-radius: 150 / $width * 100vw;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #fff;
+  }
+  &:hover {
+    background-color: rgba(9, 44, 9, 0.651);
+  }
+  &:active {
+    background-color: rgba(9, 44, 9, 0.651);
+  }
+}
 .header {
   &__wrapper-top {
     padding: 20px 0 0;
@@ -78,13 +134,13 @@ body {
   padding: 5 / $width * 100vw;
   border: 2 / $width * 100vw solid #4caf50;
   font-style: 600;
-  left: 0;
+  left: 300px;
   right: 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
   z-index: 1000;
-  padding: 10 / $width * 100vw 7%;
+  padding: 10 / $width * 100vw 15%;
   .header__wrapper-bottom {
     ul {
       list-style: none;
@@ -121,71 +177,18 @@ body {
     }
   }
 }
+
+/****SECTION HERO******/
 .section-hero {
-  .btn {
-    margin-left: 350 / $width * 100vw;
-  }
   max-width: 1920 / $width * 100vw;
   background-color: white;
-  padding: 0 20 / $width * 100vw 30 / $width * 100vw 0;
 }
 
-.btn {
-  display: inline-block;
-  font-style: 600;
-  font-family: Raleway;
-  background-color: yellow;
-  text-decoration: none;
-  font-size: 20 / $width * 100vw;
-  font-weight: 600;
-  padding: 16 / $width * 100vw 32 / $width * 100vw;
-  border-radius: 150 / $width * 100vw;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s;
-  color: #fff;
-  &:link {
-    display: inline-block;
-    font-style: 600;
-    font-family: Raleway;
-    background-color: yellow;
-    text-decoration: none;
-    font-size: 20 / $width * 100vw;
-    font-weight: 600;
-    padding: 16 / $width * 100vw 32 / $width * 100vw;
-    border-radius: 150 / $width * 100vw;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s;
-    color: #fff;
-  }
-  &:visited {
-    display: inline-block;
-    font-style: 600;
-    font-family: Raleway;
-    background-color: yellow;
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: 600;
-    padding: 16 / $width * 100vw 32 / $width * 100vw;
-    border-radius: 150 / $width * 100vw;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s;
-    color: #fff;
-  }
-  &:hover {
-    background-color: rgba(9, 44, 9, 0.651);
-  }
-  &:active {
-    background-color: rgba(9, 44, 9, 0.651);
-  }
-}
 .hero {
   margin: 0 auto;
   padding: 0 auto;
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 2fr 2.5fr;
   gap: 96 / $width * 100vw;
   align-items: center;
   justify-content: space-between;
@@ -215,7 +218,10 @@ body {
   margin-left: 350 / $width * 100vw;
   margin-top: 32 / $width * 100vwx;
   margin-bottom: 32 / $width * 100vwx;
+  color: #386641;
 }
+
+/*********QUALITY*/
 .section-quality {
   max-width: 1920 / $width * 100vw;
   padding: 0 auto;
@@ -227,7 +233,7 @@ body {
   letter-spacing: 0.75 / $width * 100vw;
   font-weight: 500;
   text-align: center;
-  color: #888;
+  /*color: #888;*/
 }
 .logos {
   display: flex;
@@ -414,6 +420,15 @@ span {
       opacity: 0.4;
     }
   }
+  .tree__btn,
+  .tree__btn a {
+    padding: 0 auto;
+    margin-left: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    align-self: center;
+  }
 }
 
 .tree__img {
@@ -461,9 +476,6 @@ span {
     }
   }
 }
-.tree__btn {
-  align-self: flex-start;
-}
 
 .sliders__prev,
 .sliders__next {
@@ -489,6 +501,7 @@ span {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.524), rgba(0, 0, 0, 0.7)),
     url("../images/Rectangle 101.png") no-repeat;
   background-size: cover;
+  position: relative;
 
   &__body {
     margin: 0 auto;
@@ -500,6 +513,25 @@ span {
     line-height: 36 / $width * 100vw;
   }
 }
+.testimonials__prev,
+.testimonials__next {
+  position: absolute;
+  background-color: transparent;
+  width: 27 / $width * 100vw;
+  height: 27 / $width * 100vw;
+  align-self: center;
+  cursor: pointer;
+}
+.testimonials__next {
+  right: 400 / $width * 100vw;
+  transform: rotate(180deg) translate(-50%);
+}
+.testimonials__prev {
+  left: 400 / $width * 100vw;
+  margin-right: 24 / $width * 100vw;
+  cursor: pointer;
+  z-index: 10;
+}
 
 .testimonial {
   &__body {
@@ -507,12 +539,8 @@ span {
     margin: 0 auto;
     text-align: center;
   }
-
   &__head {
-    // display: flex;
-    // justify-content: center;
     margin-bottom: 40 / $width * 100vw;
-    // align-items: center;
   }
 
   &__img {
@@ -551,38 +579,24 @@ span {
       rgba(0, 0, 0, 0.25);
   }
 }
-.testimonials__prev,
-.testimonials__next {
-  transform: translate(-50%);
-  left: -32 / $width * 100vw;
-  background-color: transparent;
-  width: 27 / $width * 100vw;
-  height: 27 / $width * 100vw;
-  align-self: center;
-  margin-right: 24 / $width * 100vw;
-  cursor: pointer;
-}
-.testimonials__next {
-  right: 32 / $width * 100vw;
-  margin-right: 0;
-  margin-left: 24 / $width * 100vw;
-  transform: rotate(180deg) translate(-50%);
-}
 /* Subscribe*/
 .subscribe {
+  max-width: 1920 / $width * 100vw;
   background: url("../images/image\ 32.png") no-repeat;
   background-size: cover;
   &__body {
-    padding: 50 / $width * 100vw 0 60 / $width * 100vw;
+    padding: 50 / $width * 100vw 0 60 / $width * 100vw 0;
     text-align: center;
-    margin-right: 300 / $width * 100vw;
-    margin-left: 300 / $width * 100vw;
+    /* margin-right: 300 / $width * 100vw;
+    margin-left: 300 / $width * 100vw;*/
 
     h3 {
+      max-width: 851 / $width * 100vw;
       font-size: 44 / $width * 100vw;
-      line-height: 52 / $width * 100vw;
+      /*line-height: 52 / $width * 100vw;*/
       font-weight: 500;
       margin-bottom: 50 / $width * 100vw;
+      margin-left: 534px;
     }
     span {
       font-weight: 700;
@@ -592,12 +606,13 @@ span {
 
   &__row {
     position: relative;
-    height: 54 / $width * 100vw;
+    /* height: 54 / $width * 100vw;*/
+    max-width: 700 / $width * 100vw;
+    margin-left: 610px;
 
     input {
       width: 100%;
-      padding: 16 / $width * 100vw 18 / $width * 100vw 16 / $width * 100vw 16 /
-        $width * 100vw;
+      padding: 16 / $width * 100vw 0 16 / $width * 100vw 0;
       border-radius: 28 / $width * 100vw;
       background: #dadada;
       font-size: 18 / $width * 100vw;
@@ -606,9 +621,7 @@ span {
       outline: none;
     }
     button {
-      min-height: 54 / $width * 100vw;
-      min-width: 240 / $width * 100vw;
-      border-radius: 140 / $width * 100vw;
+      background-color: yellow;
       font-style: 600;
       border: none;
       cursor: pointer;
