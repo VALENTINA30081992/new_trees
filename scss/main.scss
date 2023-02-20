@@ -120,11 +120,6 @@ button a {
     color: #386641;
   }
 }
-.home-icon {
-  height: 30 / $width * 100vw;
-  width: 30 / $width * 100vw;
-  color: #fff;
-}
 .dropdown {
   font-family: Raleway;
   background-color: #386641;
@@ -134,24 +129,39 @@ button a {
   padding: 5 / $width * 100vw;
   border: 2 / $width * 100vw solid #4caf50;
   font-style: 600;
-  left: 300 / $width * 100vw;
+  //left: 300 / $width * 100vw;
   right: 0;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   z-index: 1000;
-  padding: 10 / $width * 100vw 15%;
+  padding: 10 / $width * 100vw 13%;
+
   .header__wrapper-bottom {
+    text-transform: uppercase;
     ul {
       list-style: none;
+
       li {
         position: relative;
         float: left;
+        left: 0;
+        right: 0;
+        align-self: center;
+        margin-right: 5px;
+
+        a img {
+          height: 30 / $width * 100vw;
+          width: 30 / $width * 100vw;
+          color: #fff;
+          filter: brightness(0) invert(10);
+        }
         a {
           font-size: 16 / $width * 100vw;
-          padding: 8 / $width * 100vw;
+          padding: 5 / $width * 100vw;
           color: white;
           display: block;
+          text-decoration: none;
           &:hover {
             transition: all 5s;
             text-decoration: underline yellow;
@@ -161,8 +171,10 @@ button a {
           position: absolute;
           left: 0;
           width: 200 / $width * 100vw;
+          margin-top: 0;
           background-color: rgba(56, 102, 65, 0.795);
           display: none;
+          padding: 20px;
           li {
             width: 100%;
             border-top: 1 / $width * 100vw solid rgba(56, 102, 65, 0.795);

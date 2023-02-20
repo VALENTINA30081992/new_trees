@@ -122,12 +122,6 @@ button a {
   color: #386641;
 }
 
-.home-icon {
-  height: 1.5625vw;
-  width: 1.5625vw;
-  color: #fff;
-}
-
 .dropdown {
   font-family: Raleway;
   background-color: #386641;
@@ -137,13 +131,15 @@ button a {
   padding: 0.2604166667vw;
   border: 0.1041666667vw solid #4caf50;
   font-style: 600;
-  left: 15.625vw;
   right: 0;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   z-index: 1000;
-  padding: 0.5208333333vw 15%;
+  padding: 0.5208333333vw 13%;
+}
+.dropdown .header__wrapper-bottom {
+  text-transform: uppercase;
 }
 .dropdown .header__wrapper-bottom ul {
   list-style: none;
@@ -151,12 +147,23 @@ button a {
 .dropdown .header__wrapper-bottom ul li {
   position: relative;
   float: left;
+  left: 0;
+  right: 0;
+  align-self: center;
+  margin-right: 5px;
+}
+.dropdown .header__wrapper-bottom ul li a img {
+  height: 1.5625vw;
+  width: 1.5625vw;
+  color: #fff;
+  filter: brightness(0) invert(10);
 }
 .dropdown .header__wrapper-bottom ul li a {
   font-size: 0.8333333333vw;
-  padding: 0.4166666667vw;
+  padding: 0.2604166667vw;
   color: white;
   display: block;
+  text-decoration: none;
 }
 .dropdown .header__wrapper-bottom ul li a:hover {
   transition: all 5s;
@@ -166,8 +173,10 @@ button a {
   position: absolute;
   left: 0;
   width: 10.4166666667vw;
+  margin-top: 0;
   background-color: rgba(56, 102, 65, 0.795);
   display: none;
+  padding: 20px;
 }
 .dropdown .header__wrapper-bottom ul li ul li {
   width: 100%;
