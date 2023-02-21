@@ -147,8 +147,7 @@ button a {
 .dropdown .header__wrapper-bottom ul li {
   position: relative;
   float: left;
-  left: 0;
-  right: 0;
+  left: 10%;
   align-self: center;
   margin-right: 5px;
 }
@@ -675,6 +674,9 @@ span {
   display: flex;
   justify-content: space-around;
 }
+.footer__text {
+  padding-left: 30px;
+}
 .footer__text, .footer__text a {
   font-size: 0.7291666667vw;
   line-height: 1.3541666667vw;
@@ -682,6 +684,9 @@ span {
 }
 .footer__text a:hover, .footer__text a a:hover {
   color: #fff;
+}
+.footer__terms {
+  padding-right: 30px;
 }
 .footer__terms, .footer__terms a {
   font-size: 0.625vw;

@@ -145,8 +145,7 @@ button a {
       li {
         position: relative;
         float: left;
-        left: 0;
-        right: 0;
+        left: 10%;
         align-self: center;
         margin-right: 5px;
 
@@ -670,6 +669,9 @@ span {
     display: flex;
     justify-content: space-around;
   }
+  &__text {
+    padding-left: 30px;
+  }
 
   &__text,
   &__text a {
@@ -680,6 +682,9 @@ span {
     a:hover {
       color: #fff;
     }
+  }
+  &__terms {
+    padding-right: 30px;
   }
 
   &__terms,
