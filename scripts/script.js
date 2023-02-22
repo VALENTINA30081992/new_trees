@@ -53,3 +53,25 @@ $(".testimonials__body").slick({
   prevArrow:
     '<button type="button" class="testimonials__prev"><img src="../images/icons/testimonials_prev.svg" alt="prev" /></button>',
 });
+
+$("#menu").on("click", function () {
+  $("ul.header__main-list__submenu").slideToggle("fast");
+});
+
+$(document).ready(function () {
+  ///----top-menu
+  let $window = $(window),
+    $target = $(".header__wrapper-top .dropdown"),
+    $topPosition = $target.offset().top;
+
+  $window.on("scroll", function () {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (scrollTop > $topPosition) {
+      $target.addClass("fixed");
+      return;
+    } else {
+      $target.removeClass("fixed");
+    }
+    return;
+  });
+});
