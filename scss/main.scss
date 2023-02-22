@@ -290,7 +290,9 @@ button a {
   margin-bottom: 32 / $width * 100vwx;
   color: #386641;
 }
-
+.hero-text-box .btn {
+  margin-left: 485px;
+}
 /*********QUALITY*/
 .section-quality {
   max-width: 1920 / $width * 100vw;
