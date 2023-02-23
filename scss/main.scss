@@ -80,7 +80,7 @@ button a {
 .header {
   &__wrapper-top {
     padding: 20 / $width * 100vw 0 0;
-    position: relative;
+    /* position: relative;*/
     &__row {
       padding-bottom: 20 / $width * 100vw;
       display: flex;
@@ -128,12 +128,11 @@ button a {
   font-family: Raleway;
   background-color: #386641;
   max-width: 1920 / $width * 100vw;
-  position: static;
+  //position: static;
   top: 120 / $width * 100vw;
   padding: 5 / $width * 100vw;
   border: 2 / $width * 100vw solid #4caf50;
   font-weight: 600;
-  //left: 300 / $width * 100vw;
   right: 0;
   z-index: 1000;
   padding: 10 / $width * 100vw 0;
@@ -267,31 +266,36 @@ button a {
   margin-left: 350 / $width * 100vw;
   font-size: 20 / $width * 100vw;
   line-height: 1.6;
-  margin-bottom: 48 / $width * 100vw;
+  margin-bottom: 10 / $width * 100vw;
+  margin-top: 30 / $width * 100vwx;
 }
 .hero-img {
   width: 100%;
 }
 .heading-primary {
-  font-weight: 700;
+  font-weight: 800;
   color: #333;
   letter-spacing: -0.5 / $width * 100vw;
-  font-size: 52 / $width * 100vw;
+  font-size: 50 / $width * 100vw;
   line-height: 1.05;
   margin-left: 350 / $width * 100vw;
-  margin-top: 32 / $width * 100vw;
-  margin-bottom: 32 / $width * 100vw;
+  margin-top: 80 / $width * 100vw;
+  margin-bottom: 20 / $width * 100vw;
 }
 .tag-title {
+  text-transform: uppercase;
+  font-weight: 700;
   font-size: 22 / $width * 100vw;
   line-height: 1.05;
   margin-left: 350 / $width * 100vw;
-  margin-top: 32 / $width * 100vwx;
-  margin-bottom: 32 / $width * 100vwx;
+
+  margin-top: 20 / $width * 100vwx;
   color: #386641;
 }
 .hero-text-box .btn {
-  margin-left: 485px;
+  // margin-left: 585/ $width * 100vw;
+  float: right;
+  margin-right: 240 / $width * 100vw;
 }
 /*********QUALITY*/
 .section-quality {
@@ -318,19 +322,41 @@ button a {
   background-image: url("../images/image\ 32.png");
   grid-template-rows: 0.5fr 2fr;
   align-items: center;
-  .hero-description {
-    font-size: 16 / $width * 100vw;
-    padding-top: 26 / $width * 100vw;
-    margin-right: 350 / $width * 100vw;
-  }
 }
+.heading-first {
+  font-weight: 800;
+  color: #333;
+  letter-spacing: -0.5 / $width * 100vw;
+  font-size: 54 / $width * 100vw;
+  line-height: 1.05;
+  //margin-left: 350 / $width * 100vw;
+  // margin-top: 80 / $width * 100vw;
+  // margin-bottom: 20 / $width * 100vw;
+}
+.hero-second {
+  height: 96 / $width * 100vw;
+  width: 580 / $width * 100vw;
+  font-size: 16 / $width * 100vw;
+  padding-top: 89 / $width * 100vw;
+  margin-bottom: 60 / $width * 100vw;
+  line-height: 1.6;
+  font-weight: 500;
+  //display: flex;
+
+  //margin-right: 350 / $width * 100vw;
+}
+
 .color {
   background-color: rgba(242, 248, 244, 0.884);
 }
 .services-container {
-  padding: 26 / $width * 100vw;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  // padding: 26 / $width * 100vw;
+  //display: grid;
+  // grid-template-columns: repeat(2, 1fr);
 }
 .gallery {
   display: grid;
@@ -376,52 +402,68 @@ button a {
     transform: scale(1.05);
   }
 }
-
+/////////////////////////////////////////////////////////////////////////////VIDEO
 .section-video {
   max-width: 1920 / $width * 100vw;
+  height: 520 / $width * 100vw;
   background-image: url("../images/Rectangle 101.png");
   margin-top: 0 auto;
   position: relative;
 }
 .video {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  gap: 96 / $width * 100vw;
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .video-primary {
-  font-size: 52 / $width * 100vw;
+  width: 535 / $width * 100vw;
+  height: 52 / $width * 100vw;
+  font-size: 44 / $width * 100vw;
   line-height: 1.05;
-  margin-right: 100 / $width * 100vw;
-  margin-top: 32 / $width * 100vw;
-  margin-bottom: 32 / $width * 100vw;
-  white-space: nowrap;
+  margin-top: 90 / $width * 100vw;
+}
+.paragraph {
+  height: 169 / $width * 100vw;
+  width: 535 / $width * 100vw;
+  margin-bottom: 30 / $width * 100vw;
 }
 .video-description {
-  font-size: 20 / $width * 100vw;
+  font-size: 18 / $width * 100vw;
   line-height: 1.6;
-  margin-bottom: 28 / $width * 100vw;
+  margin-bottom: 20 / $width * 100vw;
+  font-weight: 500;
 }
 .video-img {
-  width: 70%;
+  height: 295 / $width * 100vw;
+  width: 525 / $width * 100vw;
   border: 20 / $width * 100vw solid white;
+  margin-top: 93 / $width * 100vw;
+  margin-bottom: 92 / $width * 100vw;
 }
 .video-text-box {
   color: white;
-  padding: 16 / $width * 100vw;
-  display: flexbox;
+  // padding: 16 / $width * 100vw;
+  //display: flexbox;
 }
 span {
-  color: white;
+  color: yellow;
   font-weight: 900;
+  font-size: 24 / $width * 100vw;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 .vector-img {
   position: absolute;
-  bottom: 200 / $width * 100vw;
-  right: 450 / $width * 100vw;
-  width: 1.5%;
+  margin-top: 237 / $width * 100vw;
+  bottom: 235 / $width * 100vw;
+  right: 630 / $width * 100vw;
+  height: 48 / $width * 100vw;
+  width: 38 / $width * 100vw;
 }
+.video-btn {
+  margin-bottom: 90 / $width * 100vw;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////FAVORITES
 
 .favorites {
   background: #f5f5f5;
@@ -451,7 +493,7 @@ span {
   /*margin: 0 auto;*/
   margin-right: 10 / $width * 100vw;
   background-size: 100 / $width * 100vw 200 / $width * 100vw;
-  width: 175px;
+  width: 175 / $width * 100vw;
 }
 
 .tree__body {
