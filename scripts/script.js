@@ -44,14 +44,13 @@ $(".slides").slick({
   ],
 });
 
-$(".testimonials__body").slick({
-  //dots: true,
+$(".reviews__body").slick({
   infinite: true,
   speed: 600,
   nextArrow:
-    '<button type="button" class="testimonials__next"><img src="../images/icons/testimonials_prev.svg" alt="prev" /></button>',
+    '<button type="button" class="reviews__next"><img src="../images/icons/reviews_prev.svg" alt="prev" /></button>',
   prevArrow:
-    '<button type="button" class="testimonials__prev"><img src="../images/icons/testimonials_prev.svg" alt="prev" /></button>',
+    '<button type="button" class="reviews__prev"><img src="../images/icons/reviews_prev.svg" alt="prev" /></button>',
 });
 
 $("#menu").on("click", function () {

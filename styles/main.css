@@ -11,6 +11,11 @@ body {
   overflow-x: hidden;
 }
 
+.container-min {
+  min-width: 52.0833333333vw;
+  margin: 0 auto;
+}
+
 .container-medium {
   max-width: 60.9375vw;
   margin: 0 auto;
@@ -58,7 +63,7 @@ button a {
   transition: all 0.3s;
   color: #fff;
 }
-.btn:visited:not(.subscribe__btn) {
+.btn:visited:not(.forms__btn) {
   display: inline-block;
   font-weight: 600;
   font-family: Raleway;
@@ -73,10 +78,10 @@ button a {
   transition: all 0.3s;
   color: #fff;
 }
-.btn:hover:not(.subscribe__btn) {
+.btn:hover:not(.forms__btn) {
   background-color: rgba(9, 44, 9, 0.651);
 }
-.btn:active:not(.subscribe__btn) {
+.btn:active:not(.forms__btn) {
   background-color: rgba(9, 44, 9, 0.651);
 }
 
@@ -307,8 +312,8 @@ button a {
   justify-content: center;
 }
 .mark-quality__container__logos img {
-  height: 150px;
-  width: 314px;
+  height: 7.8125vw;
+  width: 16.3541666667vw;
 }
 
 /**********SERVICES ****************/
@@ -460,13 +465,11 @@ button a {
   justify-content: center;
   padding-top: 2.6041666667vw;
 }
-
 .favorites__box {
   padding: 3.125vw 0;
   text-align: center;
   width: 60.9375vw;
 }
-
 .favorites__slideshow {
   margin-bottom: 1.5625vw;
   display: flex;
@@ -476,30 +479,26 @@ button a {
 .tree {
   display: flex;
   flex-shrink: 0;
-  /*margin: 0 auto;*/
   margin-right: 0.5208333333vw;
-  background-size: 5.2083333333vw 10.4166666667vw;
-  width: 9.1145833333vw;
 }
-
 .tree__primary {
-  margin: 0 auto;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 14.0625vw;
-  height: 19.7916666667vw;
+  height: 21.3541666667vw;
+  width: 14.84375vw;
   background-color: #eee;
   border-radius: 0.5208333333vw;
   transition: 0.7s;
 }
 .tree__primary h3 {
+  margin-top: 1.5625vw;
   font-weight: 700;
   font-size: 1.1458333333vw;
   line-height: 1.5625vw;
   color: #202020;
-  margin-bottom: 0.78125vw;
+  margin-bottom: 1.3020833333vw;
 }
 .tree__primary:hover {
   background: #386641;
@@ -510,17 +509,16 @@ button a {
 .tree__primary:hover > .tree__img {
   opacity: 0.4;
 }
-.tree__primary .tree__btn,
-.tree__primary .tree__btn a {
+.tree__btn, .tree__btn a {
   text-decoration: none;
   padding: 0 auto;
-  margin-left: 0;
+  margin-left: 1.5625vw;
+  margin-right: 1.5625vw;
   margin-bottom: 0.5208333333vw;
   text-align: center;
   display: flex;
   align-self: center;
 }
-
 .tree__img {
   position: absolute;
   width: 11.71875vw;
@@ -529,11 +527,9 @@ button a {
   transition: 0.7s;
 }
 .tree__img img {
-  -o-object-fit: contain;
-  object-fit: contain;
   display: inline-block;
+  object-fit: contain;
 }
-
 .tree__hover {
   flex-grow: 1;
   display: flex;
@@ -542,6 +538,8 @@ button a {
   opacity: 0;
   z-index: 2;
   transition: 0.7s;
+  margin-left: 1.5625vw;
+  margin-right: 1.5625vw;
 }
 .tree__hover p {
   font-size: 0.7291666667vw;
@@ -549,7 +547,6 @@ button a {
   color: #fff;
   font-weight: 500;
 }
-
 .tree__price {
   margin-top: 0.3645833333vw;
   flex-grow: 1;
@@ -582,18 +579,13 @@ button a {
   transform: rotate(180deg) translate(-60.9375vw, -1.3020833333vw);
 }
 
-/**********Testimonaals ****************/
-.container-min {
-  min-width: 52.0833333333vw;
-  margin: 0 auto;
-}
-
-.testimonials {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.524), rgba(0, 0, 0, 0.7)), url("../images/Rectangle 101.png") no-repeat;
+/**********REVIEWS ****************/
+.reviews {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.524), rgba(0, 0, 0, 0.7)), url("../images/garden.png") no-repeat;
   background-size: cover;
   position: relative;
 }
-.testimonials__body {
+.reviews__body {
   margin: 0 auto;
   padding: 3.125vw 0;
   display: flex;
@@ -602,8 +594,8 @@ button a {
   line-height: 1.875vw;
 }
 
-.testimonials__prev,
-.testimonials__next {
+.reviews__prev,
+.reviews__next {
   position: absolute;
   background-color: transparent;
   width: 1.40625vw;
@@ -614,19 +606,19 @@ button a {
   z-index: 10;
 }
 
-.testimonials__next {
+.reviews__next {
   transform: rotate(180deg) translate(-77.6041666667vw, -1.3020833333vw);
 }
 
-.testimonial__body {
+.response__body {
   max-width: 52.0833333333vw;
   margin: 0 auto;
   text-align: center;
 }
-.testimonial__head {
+.response__head {
   margin-bottom: 2.0833333333vw;
 }
-.testimonial__img {
+.response__img {
   margin: 0 auto;
   width: 5.2083333333vw;
   height: 5.2083333333vw;
@@ -635,34 +627,34 @@ button a {
   background: #478152;
   flex-shrink: 0;
 }
-.testimonial__img img {
+.response__img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.testimonial__name h3 {
+.response__name h3 {
   font-weight: 600;
   letter-spacing: 0.05em;
 }
-.testimonial__stars {
+.response__stars {
   text-align: center;
   letter-spacing: 0.5208333333vw;
   color: #ffd401;
 }
-.testimonial__text {
+.response__text {
   margin-bottom: 1.5625vw;
   font-weight: 500;
   text-align: center;
   text-shadow: 0vw 0vw 0.2083333333vw rgba(0, 0, 0, 0.25);
 }
 
-/* Subscribe*/
-.subscribe {
+/**********Subscribe ****************/
+.forms {
   max-width: 100vw;
-  background: url("../images/image 32.png") no-repeat;
+  background: url("../images/image-services.png") no-repeat;
   background-size: cover;
 }
-.subscribe__body {
+.forms__body {
   padding: 2.6041666667vw 0 3.125vw 0;
   text-align: center;
   min-width: 44.7916666667vw;
@@ -670,25 +662,25 @@ button a {
   flex-direction: column;
   align-items: center;
 }
-.subscribe__body h3 {
+.forms__body h3 {
   max-width: 44.3229166667vw;
   height: 5.4166666667vw;
   font-size: 2.2916666667vw;
   font-weight: 500;
   margin-bottom: 2.6041666667vw;
 }
-.subscribe__body span {
+.forms__body span {
   font-weight: 700;
   color: #a9d16a;
   text-transform: lowercase;
   font-size: 2.2916666667vw;
 }
-.subscribe__row {
+.forms__row {
   position: relative;
   min-width: 36.4583333333vw;
   height: 2.8125vw;
 }
-.subscribe__row input {
+.forms__row input {
   width: 100%;
   padding: 0.8333333333vw 0 0.8333333333vw 0;
   border-radius: 1.4583333333vw;
@@ -698,7 +690,7 @@ button a {
   color: #4b4b4b;
   outline: none;
 }
-.subscribe__row button {
+.forms__row button {
   background-color: inherit;
   text-transform: uppercase;
   font-weight: 600;
@@ -706,13 +698,17 @@ button a {
   cursor: pointer;
   transition: all 0.3s;
 }
-.subscribe__btn {
+.forms__btn {
   position: absolute;
   right: 0;
   top: 0;
 }
 
-/* FOOTER*/
+.container-color {
+  background-color: rgba(242, 248, 244, 0.884);
+}
+
+/**********FOOTER ****************/
 .footer {
   background: #fff;
   margin-top: 4.1666666667vw;
