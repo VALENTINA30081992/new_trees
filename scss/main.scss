@@ -80,7 +80,6 @@ button a {
 .header {
   &__wrapper-top {
     padding: 20 / $width * 100vw 0 0;
-    /* position: relative;*/
     &__row {
       padding-bottom: 20 / $width * 100vw;
       display: flex;
@@ -246,6 +245,7 @@ button a {
     }
   }
 }
+//////////////////////////////////////////////////////////////////////////////////////////
 /****SECTION HERO******/
 .section-hero {
   max-width: 1920 / $width * 100vw;
@@ -292,10 +292,10 @@ button a {
   color: #386641;
 }
 .hero-text-box .btn {
-  // margin-left: 585/ $width * 100vw;
   float: right;
   margin-right: 240 / $width * 100vw;
 }
+/////////////////////////////////////////////////////////////////////////////////////////
 /*********QUALITY*/
 .section-quality {
   max-width: 1920 / $width * 100vw;
@@ -308,7 +308,6 @@ button a {
   letter-spacing: 0.75 / $width * 100vw;
   font-weight: 500;
   text-align: center;
-  /*color: #888;*/
 }
 .logos {
   display: flex;
@@ -328,9 +327,6 @@ button a {
   letter-spacing: -0.5 / $width * 100vw;
   font-size: 54 / $width * 100vw;
   line-height: 1.05;
-  //margin-left: 350 / $width * 100vw;
-  // margin-top: 80 / $width * 100vw;
-  // margin-bottom: 20 / $width * 100vw;
 }
 .hero-second {
   height: 96 / $width * 100vw;
@@ -340,9 +336,6 @@ button a {
   margin-bottom: 60 / $width * 100vw;
   line-height: 1.6;
   font-weight: 500;
-  //display: flex;
-
-  //margin-right: 350 / $width * 100vw;
 }
 
 .color {
@@ -352,10 +345,6 @@ button a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  // padding: 26 / $width * 100vw;
-  //display: grid;
-  // grid-template-columns: repeat(2, 1fr);
 }
 .gallery {
   display: grid;
@@ -441,8 +430,6 @@ button a {
 }
 .video-text-box {
   color: white;
-  // padding: 16 / $width * 100vw;
-  //display: flexbox;
 }
 span {
   color: yellow;
@@ -498,9 +485,7 @@ span {
 .tree__body {
   margin: 0 auto;
   position: relative;
-  /*padding: 10 / $width * 100vw 10 / $width * 100vw 10 / $width * 100vw;*/
   display: flex;
-
   flex-direction: column;
   justify-content: space-between;
   width: 270 / $width * 100vw;
@@ -585,16 +570,16 @@ span {
 .sliders__prev,
 .sliders__next {
   position: absolute;
-  //left: -30 / $width * 100vw;
   background-color: transparent;
   width: 27 / $width * 100vw;
   height: 27 / $width * 100vw;
   align-self: center;
   cursor: pointer;
-  transform: translate(-35px, 25px);
+  transform: translate(-35 / $width * 100vw, 25 / $width * 100vw);
 }
 .sliders__next {
-  transform: rotate(180deg) translate(-1170px, -25px);
+  transform: rotate(180deg)
+    translate(-1170 / $width * 100vw, -25 / $width * 100vw);
 }
 
 /*Testimonaals*/
@@ -622,17 +607,17 @@ span {
 .testimonials__prev,
 .testimonials__next {
   position: absolute;
-  //left: -30 / $width * 100vw;
   background-color: transparent;
   width: 27 / $width * 100vw;
   height: 27 / $width * 100vw;
   align-self: center;
   cursor: pointer;
-  transform: translate(380px, 25px);
+  transform: translate(400 / $width * 100vw, 25 / $width * 100vw);
   z-index: 10;
 }
 .testimonials__next {
-  transform: rotate(180deg) translate(-1520px, -25px);
+  transform: rotate(180deg)
+    translate(-1490 / $width * 100vw, -25 / $width * 100vw);
 }
 
 .testimonial {
@@ -689,13 +674,13 @@ span {
   &__body {
     padding: 50 / $width * 100vw 0 60 / $width * 100vw 0;
     text-align: center;
-    min-width: 860px;
+    min-width: 860 / $width * 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     h3 {
       max-width: 851 / $width * 100vw;
-      height: 104px;
+      height: 104 / $width * 100vw;
       font-size: 44 / $width * 100vw;
       font-weight: 500;
       margin-bottom: 50 / $width * 100vw;
@@ -711,7 +696,7 @@ span {
   &__row {
     position: relative;
     min-width: 700 / $width * 100vw;
-    height: 54px;
+    height: 54 / $width * 100vw;
 
     input {
       width: 100%;
@@ -724,7 +709,6 @@ span {
       outline: none;
     }
     button {
-      //  background-color: yellow;
       background-color: inherit;
       text-transform: uppercase;
       font-weight: 600;
@@ -743,7 +727,7 @@ span {
 
 .footer {
   background: #fff;
-  margin-top: 80px;
+  margin-top: 80 / $width * 100vw;
 
   &__widgets {
     display: flex;
@@ -751,8 +735,8 @@ span {
   }
 
   &__copyright {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 10 / $width * 100vw;
+    padding-bottom: 10 / $width * 100vw;
     background: #454751;
     font-weight: 400;
   }
@@ -762,14 +746,11 @@ span {
     justify-content: space-between;
     align-items: center;
   }
-  //&__text {
-  // padding-left: 30 / $width * 100vw;
-  // }
 
   &__text,
   &__text a {
-    height: 26px;
-    width: 212px;
+    height: 26 / $width * 100vw;
+    width: 212 / $width * 100vw;
     font-size: 14 / $width * 100vw;
     line-height: 26 / $width * 100vw;
     color: #c0c0c0;
@@ -778,9 +759,6 @@ span {
       color: #fff;
     }
   }
-  //&__terms {
-  //padding-right: 30 / $width * 100vw;
-  //}
 
   &__terms,
   &__terms a {

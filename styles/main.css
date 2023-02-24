@@ -82,7 +82,6 @@ button a {
 
 .header__wrapper-top {
   padding: 1.0416666667vw 0 0;
-  /* position: relative;*/
 }
 .header__wrapper-top__row {
   padding-bottom: 1.0416666667vw;
@@ -308,7 +307,6 @@ button a {
   letter-spacing: 0.0390625vw;
   font-weight: 500;
   text-align: center;
-  /*color: #888;*/
 }
 
 .logos {
@@ -506,7 +504,6 @@ span {
 .tree__body {
   margin: 0 auto;
   position: relative;
-  /*padding: 10 / $width * 100vw 10 / $width * 100vw 10 / $width * 100vw;*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -597,11 +594,11 @@ span {
   height: 1.40625vw;
   align-self: center;
   cursor: pointer;
-  transform: translate(-35px, 25px);
+  transform: translate(-1.8229166667vw, 1.3020833333vw);
 }
 
 .sliders__next {
-  transform: rotate(180deg) translate(-1170px, -25px);
+  transform: rotate(180deg) translate(-60.9375vw, -1.3020833333vw);
 }
 
 /*Testimonaals*/
@@ -632,12 +629,12 @@ span {
   height: 1.40625vw;
   align-self: center;
   cursor: pointer;
-  transform: translate(380px, 25px);
+  transform: translate(20.8333333333vw, 1.3020833333vw);
   z-index: 10;
 }
 
 .testimonials__next {
-  transform: rotate(180deg) translate(-1520px, -25px);
+  transform: rotate(180deg) translate(-77.6041666667vw, -1.3020833333vw);
 }
 
 .testimonial__body {
@@ -687,14 +684,14 @@ span {
 .subscribe__body {
   padding: 2.6041666667vw 0 3.125vw 0;
   text-align: center;
-  min-width: 860px;
+  min-width: 44.7916666667vw;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .subscribe__body h3 {
   max-width: 44.3229166667vw;
-  height: 104px;
+  height: 5.4166666667vw;
   font-size: 2.2916666667vw;
   font-weight: 500;
   margin-bottom: 2.6041666667vw;
@@ -708,7 +705,7 @@ span {
 .subscribe__row {
   position: relative;
   min-width: 36.4583333333vw;
-  height: 54px;
+  height: 2.8125vw;
 }
 .subscribe__row input {
   width: 100%;
@@ -737,15 +734,15 @@ span {
 /* FOOTER*/
 .footer {
   background: #fff;
-  margin-top: 80px;
+  margin-top: 4.1666666667vw;
 }
 .footer__widgets {
   display: flex;
   justify-content: space-between;
 }
 .footer__copyright {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0.5208333333vw;
+  padding-bottom: 0.5208333333vw;
   background: #454751;
   font-weight: 400;
 }
@@ -756,8 +753,8 @@ span {
   align-items: center;
 }
 .footer__text, .footer__text a {
-  height: 26px;
-  width: 212px;
+  height: 1.3541666667vw;
+  width: 11.0416666667vw;
   font-size: 0.7291666667vw;
   line-height: 1.3541666667vw;
   color: #c0c0c0;
