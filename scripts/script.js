@@ -1,4 +1,4 @@
-$(".sliders").slick({
+$(".slides").slick({
   infinite: true,
   speed: 900,
   slidesToShow: 4,
