@@ -91,7 +91,6 @@ button a {
   justify-content: space-between;
   flex-wrap: nowrap;
   justify-content: space-between;
-  align-items: center;
   max-width: 65.1041666667vw;
   margin: 0 auto;
   color: #000;
@@ -738,35 +737,33 @@ span {
 /* FOOTER*/
 .footer {
   background: #fff;
+  margin-top: 80px;
 }
 .footer__widgets {
-  padding: 2.6041666667vw 15.625vw 2.8125vw 15.625vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .footer__copyright {
-  padding: 0.78125vw 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background: #454751;
   font-weight: 400;
 }
 .footer__row {
   text-align: center;
   display: flex;
-  justify-content: space-around;
-}
-.footer__text {
-  padding-left: 1.5625vw;
+  justify-content: space-between;
+  align-items: center;
 }
 .footer__text, .footer__text a {
+  height: 26px;
+  width: 212px;
   font-size: 0.7291666667vw;
   line-height: 1.3541666667vw;
   color: #c0c0c0;
 }
 .footer__text a:hover, .footer__text a a:hover {
   color: #fff;
-}
-.footer__terms {
-  padding-right: 1.5625vw;
 }
 .footer__terms, .footer__terms a {
   font-size: 0.625vw;
