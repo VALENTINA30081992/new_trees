@@ -593,22 +593,24 @@ span {
 .sliders__prev,
 .sliders__next {
   position: absolute;
-  transform: rotate(0deg) translate(50%, -50%);
-  left: -0.4166666667vw;
   background-color: transparent;
   width: 1.40625vw;
   height: 1.40625vw;
   align-self: center;
-  margin-right: 1.25vw;
   cursor: pointer;
+  transform: translate(-35px, 25px);
 }
 
 .sliders__next {
-  right: 0.4166666667vw;
-  transform: rotate(180deg) translate(-50%, -50%);
+  transform: rotate(180deg) translate(-1170px, -25px);
 }
 
 /*Testimonaals*/
+.container-min {
+  min-width: 52.0833333333vw;
+  margin: 0 auto;
+}
+
 .testimonials {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.524), rgba(0, 0, 0, 0.7)), url("../images/Rectangle 101.png") no-repeat;
   background-size: cover;
@@ -625,23 +627,18 @@ span {
 
 .testimonials__prev,
 .testimonials__next {
+  position: absolute;
   background-color: transparent;
   width: 1.40625vw;
   height: 1.40625vw;
   align-self: center;
   cursor: pointer;
+  transform: translate(380px, 25px);
+  z-index: 10;
 }
 
 .testimonials__next {
-  right: 20.8333333333vw;
-  transform: rotate(180deg) translate(-50%);
-}
-
-.testimonials__prev {
-  left: 20.8333333333vw;
-  margin-right: 1.25vw;
-  cursor: pointer;
-  z-index: 10;
+  transform: rotate(180deg) translate(-1520px, -25px);
 }
 
 .testimonial__body {
@@ -691,9 +688,14 @@ span {
 .subscribe__body {
   padding: 2.6041666667vw 0 3.125vw 0;
   text-align: center;
+  min-width: 860px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .subscribe__body h3 {
   max-width: 44.3229166667vw;
+  height: 104px;
   font-size: 2.2916666667vw;
   font-weight: 500;
   margin-bottom: 2.6041666667vw;
@@ -701,11 +703,13 @@ span {
 .subscribe__body span {
   font-weight: 700;
   color: #a9d16a;
+  text-transform: lowercase;
+  font-size: 2.2916666667vw;
 }
 .subscribe__row {
   position: relative;
-  /* height: 54 / $width * 100vw;*/
-  max-width: 36.4583333333vw;
+  min-width: 36.4583333333vw;
+  height: 54px;
 }
 .subscribe__row input {
   width: 100%;
@@ -719,6 +723,7 @@ span {
 }
 .subscribe__row button {
   background-color: inherit;
+  text-transform: uppercase;
   font-weight: 600;
   border: none;
   cursor: pointer;

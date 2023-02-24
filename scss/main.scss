@@ -586,21 +586,23 @@ span {
 .sliders__prev,
 .sliders__next {
   position: absolute;
-  transform: rotate(0deg) translate(50%, -50%);
-  left: -8 / $width * 100vw;
+  //left: -30 / $width * 100vw;
   background-color: transparent;
   width: 27 / $width * 100vw;
   height: 27 / $width * 100vw;
   align-self: center;
-  margin-right: 24 / $width * 100vw;
   cursor: pointer;
+  transform: translate(-35px, 25px);
 }
 .sliders__next {
-  right: 8 / $width * 100vw;
-  transform: rotate(180deg) translate(-50%, -50%);
+  transform: rotate(180deg) translate(-1170px, -25px);
 }
 
 /*Testimonaals*/
+.container-min {
+  min-width: 1000 / $width * 100vw;
+  margin: 0 auto;
+}
 
 .testimonials {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.524), rgba(0, 0, 0, 0.7)),
@@ -620,21 +622,18 @@ span {
 }
 .testimonials__prev,
 .testimonials__next {
+  position: absolute;
+  //left: -30 / $width * 100vw;
   background-color: transparent;
   width: 27 / $width * 100vw;
   height: 27 / $width * 100vw;
   align-self: center;
   cursor: pointer;
+  transform: translate(380px, 25px);
+  z-index: 10;
 }
 .testimonials__next {
-  right: 400 / $width * 100vw;
-  transform: rotate(180deg) translate(-50%);
-}
-.testimonials__prev {
-  left: 400 / $width * 100vw;
-  margin-right: 24 / $width * 100vw;
-  cursor: pointer;
-  z-index: 10;
+  transform: rotate(180deg) translate(-1520px, -25px);
 }
 
 .testimonial {
@@ -691,9 +690,13 @@ span {
   &__body {
     padding: 50 / $width * 100vw 0 60 / $width * 100vw 0;
     text-align: center;
-
+    min-width: 860px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     h3 {
       max-width: 851 / $width * 100vw;
+      height: 104px;
       font-size: 44 / $width * 100vw;
       font-weight: 500;
       margin-bottom: 50 / $width * 100vw;
@@ -701,13 +704,15 @@ span {
     span {
       font-weight: 700;
       color: #a9d16a;
+      text-transform: lowercase;
+      font-size: 44 / $width * 100vw;
     }
   }
 
   &__row {
     position: relative;
-    /* height: 54 / $width * 100vw;*/
-    max-width: 700 / $width * 100vw;
+    min-width: 700 / $width * 100vw;
+    height: 54px;
 
     input {
       width: 100%;
@@ -722,6 +727,7 @@ span {
     button {
       //  background-color: yellow;
       background-color: inherit;
+      text-transform: uppercase;
       font-weight: 600;
       border: none;
       cursor: pointer;
@@ -734,7 +740,6 @@ span {
     top: 0;
   }
 }
-
 /* FOOTER*/
 
 .footer {
