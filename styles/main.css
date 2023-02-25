@@ -356,8 +356,6 @@ button a {
   padding-right: 19.2708333333vw;
 }
 .services__gallery__transform {
-  height: 260px;
-  width: 285px;
   display: block;
   transition: all 0.4s;
 }
@@ -372,32 +370,26 @@ button a {
   width: 100%;
 }
 .services__gallery__transform__content {
-  background-color: #ffd401;
   font-family: Raleway;
-  font-style: 500;
-  /*font-size: 16 / $width * 100vw;
-  line-height: 22 / $width * 100vw;
   color: #000;
-  min-height: 60 / $width * 100vw;
-  padding: 0 44 / $width * 100vw 0 20 / $width * 100vw;*/
+  min-height: 3.125vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   transition: 0.5s;
   background-color: white;
 }
-
-.content__tag {
-  background-color: #386641;
+.services__gallery__transform__content__tag {
   display: block;
   font-weight: 700;
+  font-size: 0.9375vw;
+  line-height: 1.1458333333vw;
   color: #202020;
 }
-
-.content__images {
-  position: absolute;
-  height: 7px;
-  width: 9px;
+.services__gallery__transform__content__images,
+.services__gallery__transform__content img {
+  height: 24px;
+  width: 24px;
 }
 
 /**********VIDEO****************/
