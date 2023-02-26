@@ -490,12 +490,12 @@ button a {
   color: #202020;
 }
 .favorites__box {
+  padding: 3.125vw 0 4.1666666667vw 0;
   text-align: center;
   width: 60.9375vw;
   height: 21.5104166667vw;
 }
 .favorites__slideshow {
-  margin-bottom: 1.5625vw;
   display: flex;
   justify-content: space-between;
 }
@@ -607,7 +607,7 @@ button a {
   height: 22.0833333333vw;
 }
 .reviews__body {
-  background-color: coral;
+  position: relative;
   margin: 0 auto;
   padding: 3.125vw 0;
   align-self: center;
@@ -615,7 +615,6 @@ button a {
 }
 
 .response {
-  background-color: #96b93f;
   display: flex;
   align-items: center;
 }
@@ -670,14 +669,13 @@ button a {
   margin-right: 10px;
 }
 .response__hero__text {
-  background-color: #2c11d8;
   max-width: 52.0833333333vw;
   height: 7.5vw;
   display: flex;
   align-content: stretch;
   margin-bottom: 1.5625vw;
   font-weight: 500;
-  font-size: 1.25vw;
+  font-size: 1.1979166667vw;
   line-height: 1.875vw;
   letter-spacing: 0.05em;
   text-align: center;
@@ -693,12 +691,12 @@ button a {
   height: 1.40625vw;
   align-self: center;
   cursor: pointer;
-  transform: translate(20.8333333333vw, 1.3020833333vw);
-  z-index: 10;
+  transform: translate(18.75vw, 6.875vw);
+  z-index: 1000;
 }
 
 .reviews__next {
-  transform: rotate(180deg) translate(-77.6041666667vw, -1.3020833333vw);
+  transform: rotate(180deg) translate(-79.1145833333vw, 9.375vw);
 }
 
 /**********FORMS ****************/
