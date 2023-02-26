@@ -483,17 +483,11 @@ button a {
   margin-top: 3.125vw;
 }
 .favorites__h h2 {
-  background-color: #386641;
   height: 2.7083333333vw;
   width: 29.84375vw;
   font-size: 2.2916666667vw;
   line-height: 2.7083333333vw;
   color: #202020;
-  /*display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-self: flex-end;
-  justify-content: center;*/
 }
 .favorites__box {
   padding: 3.125vw 0;
