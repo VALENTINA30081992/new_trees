@@ -58,7 +58,6 @@ $("#menu").on("click", function () {
 });
 
 $(document).ready(function () {
-  ///----top-menu
   let $window = $(window),
     $target = $(".header__wrapper-top .dropdown"),
     $topPosition = $target.offset().top;
