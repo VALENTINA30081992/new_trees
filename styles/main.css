@@ -652,7 +652,6 @@ button a {
   display: flex;
   text-align: start;
   align-items: start;
-  background-color: #4caf50;
   font-weight: 600;
   font-size: 1.25vw;
   line-height: 1.875vw;
@@ -888,6 +887,7 @@ button a {
   align-items: center;
 }
 .footer__copyright__text, .footer__copyright__text a {
+  text-decoration: none;
   margin-top: 0.78125vw;
   height: 1.3541666667vw;
   width: 11.0416666667vw;
@@ -897,8 +897,10 @@ button a {
 }
 .footer__copyright__text a:hover, .footer__copyright__text a a:hover {
   color: #fff;
+  text-decoration: underline;
 }
 .footer__copyright__terms, .footer__copyright__terms a {
+  text-decoration: none;
   margin-top: 0.78125vw;
   font-size: 0.625vw;
   line-height: 1.0416666667vw;
@@ -906,4 +908,5 @@ button a {
 }
 .footer__copyright__terms a:hover, .footer__copyright__terms a a:hover {
   color: #fff;
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
