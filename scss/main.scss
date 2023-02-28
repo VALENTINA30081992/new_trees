@@ -140,7 +140,6 @@ button a {
 
 /********************************/
 ///WRAPER BOTTOM///
-
 .dropdown {
   font-family: Raleway;
   background-color: #386641;
@@ -150,7 +149,7 @@ button a {
   border: 2 / $width * 100vw solid #4caf50;
   font-weight: 600;
   right: 0;
-  //z-index: 1000;
+  z-index: 1000;
   &.fixed {
     position: fixed;
     left: 0;
@@ -522,10 +521,9 @@ button a {
   }
 
   &__box {
-    background-color: #0e0a83;
     padding: 60 / $width * 100vw 0 80 / $width * 100vw 0;
     text-align: center;
-    width: 1170 / $width * 100vw;
+    // width: 1170 / $width * 100vw;
     height: 413 / $width * 100vw;
   }
   &__slideshow {

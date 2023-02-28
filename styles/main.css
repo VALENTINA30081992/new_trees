@@ -144,6 +144,7 @@ button a {
   border: 0.1041666667vw solid #4caf50;
   font-weight: 600;
   right: 0;
+  z-index: 1000;
 }
 .dropdown.fixed {
   position: fixed;
@@ -496,10 +497,8 @@ button a {
   color: #202020;
 }
 .favorites__box {
-  background-color: #0e0a83;
   padding: 3.125vw 0 4.1666666667vw 0;
   text-align: center;
-  width: 60.9375vw;
   height: 21.5104166667vw;
 }
 .favorites__slideshow {
