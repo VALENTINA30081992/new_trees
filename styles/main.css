@@ -1,5 +1,5 @@
 @import url("../styles/normalize.css");
-@import url("../scss/queries.scss");
+@import url("../styles/queries.css");
 html {
   overflow-x: hidden;
 }
@@ -496,6 +496,7 @@ button a {
   color: #202020;
 }
 .favorites__box {
+  background-color: #0e0a83;
   padding: 3.125vw 0 4.1666666667vw 0;
   text-align: center;
   width: 60.9375vw;
