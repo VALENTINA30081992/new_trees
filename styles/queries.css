@@ -1,31 +1,22 @@
 /**************************/
 /* BELOW 1344px (Smaller desktops) */
 /**************************/
-/*@media only screen and (min-width: 480px) {
-  .hero__text-box__description {
-    &__paragraph {
-      background-color: rgb(60, 36, 99);
-      margin: 0 auto;
-      max-width: 450px;
-    }
+@media only screen and (max-width: 480px) {
+  .hero__text-box__description__paragraph {
+    background-color: rgb(60, 36, 99);
+    margin: 0 auto;
+    max-width: 450px;
   }
-  ///////////////
-  .services {
-    &__text-box {
-      background-color: aqua;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      p {
-        max-width: 580px;
-      }
-    }
+  .services__text-box {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services__text-box p {
+    max-width: 580px;
   }
 }
-
-//@media (max-width: 1344px) {
-
 /**************************/
 /* BELOW 1200px (Landscape Tablets) */
 /**************************/

@@ -499,6 +499,7 @@ button a {
 .favorites__box {
   padding: 3.125vw 0 4.1666666667vw 0;
   text-align: center;
+  width: 60.9375vw;
   height: 21.5104166667vw;
 }
 .favorites__slideshow {
@@ -553,7 +554,7 @@ button a {
 }
 .tree__img img {
   height: 13.9583333333vw;
-  width: 11.5625vw;
+  width: 14.84375vw;
   display: inline-block;
   object-fit: contain;
 }

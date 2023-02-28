@@ -523,7 +523,7 @@ button a {
   &__box {
     padding: 60 / $width * 100vw 0 80 / $width * 100vw 0;
     text-align: center;
-    // width: 1170 / $width * 100vw;
+    width: 1170 / $width * 100vw;
     height: 413 / $width * 100vw;
   }
   &__slideshow {
@@ -579,7 +579,7 @@ button a {
     transition: 0.7s;
     img {
       height: 268 / $width * 100vw;
-      width: 222 / $width * 100vw;
+      width: 285 / $width * 100vw;
       display: inline-block;
       object-fit: contain;
     }
