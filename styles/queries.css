@@ -163,17 +163,6 @@
     display: initial;
   }
 }
-/*
-  .header__main-list {
-    flex-direction: column;
-    gap: 4.8rem;
-  }
-
-  .header__main-list__item:link,
-  .header__main-list__item:visited {
-    font-size: 3rem;
-  }
-}*/
 /* BELOW 1344/ $width * 100vw (Smaller desktops) */
 /****************************/
 @media only screen and (max-width: 480px) {
