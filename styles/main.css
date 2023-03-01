@@ -250,6 +250,22 @@ button a {
   display: initial;
 }
 
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+.btn-mobile-nav img {
+  height: 2.5vw;
+  width: 2.5vw;
+  color: #333;
+}
+
+img[name=close-outline] {
+  display: none;
+}
+
 /**********SECTION HERO****************/
 .section-hero {
   max-width: 100vw;
