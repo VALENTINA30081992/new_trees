@@ -300,6 +300,8 @@ img[name="close-outline"] {
     }
   }
   &__text-box {
+    background-color: #386641;
+    margin-left: 365 / $width * 100vw;
     padding: 0 auto;
     &__primary {
       height: 118 / $width * 100vw;
@@ -307,7 +309,7 @@ img[name="close-outline"] {
       font-weight: 800;
       line-height: 59 / $width * 100vw;
       font-size: 50 / $width * 100vw;
-      margin-left: 365 / $width * 100vw;
+
       margin-top: 80 / $width * 100vw;
       margin-bottom: 20 / $width * 100vw;
     }
@@ -318,14 +320,14 @@ img[name="close-outline"] {
       font-weight: 700;
       font-size: 22 / $width * 100vw;
       line-height: 20 / $width * 100vw;
-      margin-left: 365 / $width * 100vw;
+      //margin-left: 365 / $width * 100vw;
       margin-top: 20 / $width * 100vwx;
       color: #386641;
     }
     &__description {
       height: 168 / $width * 100vw;
       width: 440 / $width * 100vw;
-      margin-left: 365 / $width * 100vw;
+      //margin-left: 365 / $width * 100vw;
       margin-bottom: 33 / $width * 100vw;
       margin-top: 30 / $width * 100vw;
       font-size: 16 / $width * 100vw;

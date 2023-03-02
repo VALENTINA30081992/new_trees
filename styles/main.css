@@ -284,6 +284,8 @@ img[name=close-outline] {
   width: 54.1666666667vw;
 }
 .hero__text-box {
+  background-color: #386641;
+  margin-left: 19.0104166667vw;
   padding: 0 auto;
 }
 .hero__text-box__primary {
@@ -292,7 +294,6 @@ img[name=close-outline] {
   font-weight: 800;
   line-height: 3.0729166667vw;
   font-size: 2.6041666667vw;
-  margin-left: 19.0104166667vw;
   margin-top: 4.1666666667vw;
   margin-bottom: 1.0416666667vw;
 }
@@ -303,14 +304,12 @@ img[name=close-outline] {
   font-weight: 700;
   font-size: 1.1458333333vw;
   line-height: 1.0416666667vw;
-  margin-left: 19.0104166667vw;
   margin-top: 1.0416666667vwx;
   color: #386641;
 }
 .hero__text-box__description {
   height: 8.75vw;
   width: 22.9166666667vw;
-  margin-left: 19.0104166667vw;
   margin-bottom: 1.71875vw;
   margin-top: 1.5625vw;
   font-size: 0.8333333333vw;
