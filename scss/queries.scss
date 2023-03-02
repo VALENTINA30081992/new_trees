@@ -1810,8 +1810,8 @@
     }
 
     &__box {
-      margin-left: 50px;
-      padding: 60 / $width * 100vw 10 / $width * 100vw 60 / $width * 100vw 100 /
+      margin-left: 50 / $width * 100vw;
+      padding: 30 / $width * 100vw 10 / $width * 100vw 30 / $width * 100vw 100 /
         $width * 100vw;
       width: 600 / $width * 100vw;
       height: 413 / $width * 100vw;
