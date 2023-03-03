@@ -741,7 +741,6 @@
     line-height: 1.05;
   }
   .services__text-box__second {
-    background-color: #921287;
     height: 10.1694915254vw;
     width: 50.8474576271vw;
     font-size: 1.4830508475vw;
@@ -1378,80 +1377,93 @@
     width: 6.8181818182vw;
   }
   /**********SECTION HERO****************/
+  /*.section-hero {
+    max-width: 704 / $width * 100vw;
+  }*/
   .section-hero {
     max-width: 100vw;
   }
   .hero {
+    flex-direction: column;
     margin: 0 auto;
     padding: 0 auto;
   }
+  .hero__img-box {
+    margin-top: 2.8409090909vw;
+    margin-left: 6.3920454545vw;
+  }
   .hero__img-box__img {
+    object-fit: cover;
+    width: 77.2727272727vw;
     height: 56.8181818182vw;
-    width: 76.7045454545vw;
   }
   .hero__text-box {
     padding: 0 auto;
   }
   .hero__text-box__primary {
-    height: 16.7613636364vw;
-    width: 35.5113636364vw;
+    height: 9.9431818182vw;
+    width: 77.2727272727vw;
     line-height: 5.5397727273vw;
     font-size: 4.5454545455vw;
-    margin-left: 4.9715909091vw;
-    margin-top: 5.6818181818vw;
-    margin-bottom: 2.8409090909vw;
+    margin-left: 6.3920454545vw;
+    margin-top: 2.8409090909vw;
+    margin-bottom: 0.7102272727vw;
   }
   .hero__text-box__tag-title {
     height: 2.8409090909vw;
-    width: 37.5vw;
+    width: 77.2727272727vw;
     font-size: 1.7045454545vw;
     line-height: 2.2727272727vw;
-    margin-left: 4.9715909091vw;
-    margin-top: 2.8409090909vwx;
+    margin-left: 6.3920454545vw;
+    margin-top: 1.4204545455vwx;
   }
   .hero__text-box__description {
-    height: 23.8636363636vw;
-    width: 34.0909090909vw;
-    margin-left: 4.9715909091vw;
-    margin-bottom: 4.6875vw;
-    margin-top: 1.4204545455vw;
-    font-size: 1.7045454545vw;
-    line-height: 2.5568181818vw;
+    height: 19.8863636364vw;
+    width: 77.2727272727vw;
+    margin-left: 6.3920454545vw;
+    margin-bottom: 2.8409090909vw;
+    margin-top: 0.7102272727vw;
+    font-size: 2.5568181818vw;
+    line-height: 3.9772727273vw;
   }
   .hero__text-box__btn {
-    margin-left: 4.9715909091vw;
+    margin-left: 6.3920454545vw;
     padding: 1.7045454545vw 5.6818181818vw;
   }
   /**********QUALITY****************/
   .mark-quality {
     max-width: 100vw;
-    height: 18.4659090909vw;
+    height: 17.0454545455vw;
     padding: 0 auto;
   }
   .mark-quality__container__logos img {
-    height: 17.0454545455vw;
-    width: 41.1931818182vw;
+    height: 15.625vw;
+    width: 38.3522727273vw;
     margin-right: 1.4204545455vw;
   }
   /**********SERVICES ****************/
   .section-services {
     max-width: 100vw;
   }
+  .services__text-box {
+    flex-direction: column;
+  }
   .services__text-box__first {
-    height: 8.9488636364vw;
+    display: flex;
+    justify-content: center;
+    height: 4.6875vw;
     width: 46.875vw;
     letter-spacing: -0.0710227273vw;
     font-size: 4.8295454545vw;
     line-height: 1.05;
   }
   .services__text-box__second {
-    background-color: #341292;
-    height: 13.6363636364vw;
-    width: 68.1818181818vw;
-    font-size: 1.7045454545vw;
-    margin-top: 6.3920454545vw;
-    margin-bottom: 8.5227272727vw;
-    line-height: 2.8409090909vw;
+    height: 19.8863636364vw;
+    width: 75.2840909091vw;
+    font-size: 2.5568181818vw;
+    margin-top: 2.1306818182vw;
+    margin-bottom: 4.2613636364vw;
+    line-height: 3.9772727273vw;
   }
   .services__gallery {
     grid-template-columns: 34.8011363636vw 34.8011363636vw;
@@ -1474,7 +1486,7 @@
   .services__gallery__transform__content__tag {
     height: 4.2613636364vw;
     width: 26.8465909091vw;
-    font-size: 1.7045454545vw;
+    font-size: 1.9886363636vw;
     line-height: 2.8409090909vw;
   }
   .services__gallery__transform__content img {
@@ -1494,22 +1506,22 @@
   .section-video .video__text-box__primary {
     width: 75.9943181818vw;
     height: 7.3863636364vw;
-    font-size: 4.5454545455vw;
+    font-size: 4.8295454545vw;
     line-height: 1.05;
     margin-top: 5.6818181818vw;
   }
   .section-video .video__text-box__paragraph {
-    height: 24.0056818182vw;
+    height: 26.8465909091vw;
     width: 75.9943181818vw;
     margin-bottom: 1.4204545455vw;
   }
   .section-video .video__text-box__paragraph__description {
-    font-size: 1.9886363636vw;
-    line-height: 1.6;
+    font-size: 2.5568181818vw;
+    line-height: 1.8;
     margin-bottom: 1.4204545455vw;
   }
   .section-video .video__text-box__paragraph__description span {
-    font-size: 1.9886363636vw;
+    font-size: 2.2727272727vw;
   }
   .section-video .video__text-box__btn {
     margin-bottom: 4.2613636364vw;
@@ -1647,9 +1659,9 @@
   }
   .response__hero__text {
     max-width: 79.5454545455vw;
-    height: 20.4545454545vw;
+    height: 26.1363636364vw;
     margin-bottom: 1.4204545455vw;
-    font-size: 2.2727272727vw;
+    font-size: 2.5568181818vw;
     line-height: 3.9772727273vw;
     letter-spacing: 0vw;
     text-shadow: 0vw 0vw 0.5681818182vw rgba(0, 0, 0, 0.25);
@@ -1814,12 +1826,16 @@
     padding: 3.6764705882vw 0 0;
   }
   .header__wrapper-top__row {
+    display: flex;
+    text-align: center;
+    justify-content: center;
     background-color: #0f13d4;
     padding-bottom: 3.6764705882vw;
     max-width: 90.0735294118vw;
     margin: 0 auto;
   }
   .header__wrapper-top__row__adress, .header__wrapper-top__row__work-time {
+    display: none;
     font-size: 2.2058823529vw;
     line-height: 3.3088235294vw;
   }
@@ -1833,19 +1849,20 @@
     width: 32.9044117647vw;
   }
   .header__wrapper-top__row__work-time__telephone, .header__wrapper-top__row__work-time__telephone a {
+    display: none;
     margin-top: 1.1029411765vw;
     font-size: 2.9411764706vw;
     line-height: 4.0441176471vw;
   }
   .header__wrapper-top__row__logo img {
-    height: 10.8455882353vw;
-    width: 25.7352941176vw;
+    height: 14.7058823529vw;
+    width: 33.0882352941vw;
   }
   .header__wrapper-top__row__logo p {
     margin-top: 3.125vw;
-    height: 2.5735294118vw;
-    width: 54.4117647059vw;
-    font-size: 2.2058823529vw;
+    height: 4.0441176471vw;
+    width: 69.8529411765vw;
+    font-size: 2.5735294118vw;
     line-height: 2.5900735294vw;
   }
   /********************************/
@@ -1945,10 +1962,10 @@
     padding: 0 auto;
   }
   .hero__text-box__primary {
-    height: 12.8676470588vw;
+    height: 16.5441176471vw;
     width: 90.0735294118vw;
     line-height: 7.1691176471vw;
-    font-size: 5.8823529412vw;
+    font-size: 6.25vw;
     margin-top: 3.6764705882vw;
     margin-bottom: 0.9191176471vw;
   }
@@ -1960,12 +1977,12 @@
     margin-top: 1.8382352941vwx;
   }
   .hero__text-box__description {
-    height: 18.0147058824vw;
+    height: 33.0882352941vw;
     width: 90.0735294118vw;
     margin-bottom: 3.6764705882vw;
     margin-top: 0.9191176471vw;
-    font-size: 2.2058823529vw;
-    line-height: 3.3088235294vw;
+    font-size: 3.3088235294vw;
+    line-height: 4.4117647059vw;
   }
   .hero__text-box__btn {
     padding: 2.2058823529vw 7.3529411765vw;
@@ -1996,13 +2013,12 @@
     line-height: 1.05;
   }
   .services__text-box__second {
-    background-color: #341292;
-    height: 17.6470588235vw;
+    height: 25.7352941176vw;
     width: 88.2352941176vw;
-    font-size: 2.2058823529vw;
+    font-size: 3.3088235294vw;
     margin-top: 2.7573529412vw;
     margin-bottom: 5.5147058824vw;
-    line-height: 3.6764705882vw;
+    line-height: 5.1470588235vw;
   }
   .services__gallery {
     grid-template-columns: 45.0367647059vw 45.0367647059vw;
@@ -2025,7 +2041,7 @@
   .services__gallery__transform__content__tag {
     height: 5.5147058824vw;
     width: 34.7426470588vw;
-    font-size: 2.2058823529vw;
+    font-size: 2.9411764706vw;
     line-height: 3.6764705882vw;
   }
   .services__gallery__transform__content img {
@@ -2045,22 +2061,22 @@
   .section-video .video__text-box__primary {
     width: 90.0735294118vw;
     height: 5.8823529412vw;
-    font-size: 5.8823529412vw;
+    font-size: 6.25vw;
     line-height: 1.05;
     margin-top: 7.3529411765vw;
   }
   .section-video .video__text-box__paragraph {
-    height: 25.5514705882vw;
+    height: 33.0882352941vw;
     width: 90.0735294118vw;
     margin-bottom: 1.8382352941vw;
   }
   .section-video .video__text-box__paragraph__description {
-    font-size: 2.5735294118vw;
-    line-height: 1.6;
+    font-size: 3.3088235294vw;
+    line-height: 1.8;
     margin-bottom: 1.8382352941vw;
   }
   .section-video .video__text-box__paragraph__description span {
-    font-size: 2.5735294118vw;
+    font-size: 2.9411764706vw;
   }
   .section-video .video__text-box__btn {
     margin-bottom: 3.6764705882vw;
@@ -2111,7 +2127,7 @@
   }
   .tree__primary h3 {
     margin-top: 5.5147058824vw;
-    font-size: 3.3088235294vw;
+    font-size: 4.0441176471vw;
     line-height: 5.5147058824vw;
     margin-bottom: 4.5955882353vw;
   }
@@ -2132,8 +2148,8 @@
     margin-right: 5.5147058824vw;
   }
   .tree__hover p {
-    font-size: 2.2058823529vw;
-    line-height: 3.3088235294vw;
+    font-size: 2.9411764706vw;
+    line-height: 4.0441176471vw;
   }
   .tree__price {
     margin-top: 1.2867647059vw;
@@ -2199,7 +2215,7 @@
     max-width: 79.0441176471vw;
     height: 33.8235294118vw;
     margin-bottom: 1.8382352941vw;
-    font-size: 2.9411764706vw;
+    font-size: 3.3088235294vw;
     line-height: 5.1470588235vw;
     letter-spacing: 0vw;
     text-shadow: 0vw 0vw 0.7352941176vw rgba(0, 0, 0, 0.25);
