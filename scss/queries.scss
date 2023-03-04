@@ -1282,7 +1282,7 @@
     top: 0;
     left: 0;
     width: 944 / $width * 100vw;
-    height: 1010 / $width * 100vw;
+    height: 2010 / $width * 100vw;
     transform: translateX(100%);
     transition: all 0.5s ease-in;
 
@@ -1351,9 +1351,9 @@
         &__submenu {
           position: absolute;
           left: 250 / $width * 100vw;
-          width: 400 / $width * 100vw;
+          width: 150 / $width * 100vw;
           margin-top: 0;
-          background-color: rgba(56, 102, 65, 0.795);
+          background-color: rgba(56, 102, 65, 0.875);
           display: none;
           padding: 4 / $width * 100vw 20 / $width * 100vw;
           transform: translate(-20 / $width * 100vw, 40 / $width * 100vw);
@@ -1373,7 +1373,10 @@
           }
         }
         &__item {
+          //width: 844px;
+          height: 40px;
           margin-right: 36 / $width * 100vw;
+          margin-bottom: 20px;
           &::before {
             content: "";
             position: absolute;
@@ -1426,8 +1429,8 @@
           //margin-right: 5 / $width * 100vw;
 
           a img {
-            width: 70 / $width * 100vw;
-            height: 55 / $width * 100vw;
+            width: 50 / $width * 100vw;
+            height: 35 / $width * 100vw;
             color: #fff;
             filter: brightness(0) invert(10);
           }
