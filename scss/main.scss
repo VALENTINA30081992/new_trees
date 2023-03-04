@@ -402,7 +402,6 @@ img[name="close-outline"] {
   }
   &__gallery {
     display: grid;
-    //grid-template-columns: repeat(4, 1fr);
     grid-template-columns: 285 / $width * 100vw 285 / $width * 100vw 285 / $width * 100vw 285 / $width * 100vw;
 
     gap: 5 / $width * 100vw;
