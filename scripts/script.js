@@ -1,3 +1,5 @@
+//////////////////////////////////////////////////////////////////////////////
+/* Trees slick*/
 $(".slides").slick({
   infinite: true,
   speed: 900,
@@ -38,11 +40,10 @@ $(".slides").slick({
         slidesToScroll: 1,
       },
     },
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ],
 });
+//////////////////////////////////////////////////////////////////////////////
+/* Reviews slick*/
 
 $(".reviews__body").slick({
   infinite: true,
@@ -56,9 +57,10 @@ $(".reviews__body").slick({
 $("#menu").on("click", function () {
   $("ul.header__main-list__submenu").slideToggle("fast");
 });
+/////////////////////////////////////////////////////////////////////////////////
+/*FIXED MENU*/
 
 $(document).ready(function () {
-  ///----top-menu
   let $window = $(window),
     $target = $(".header__wrapper-top .dropdown"),
     $topPosition = $target.offset().top;
@@ -76,7 +78,7 @@ $(document).ready(function () {
 });
 
 ///////////////////////////////////////////////////////////
-// Make mobile navigation work
+/* Make mobile navigation work*/
 
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".dropdown");
@@ -84,3 +86,18 @@ const headerEl = document.querySelector(".dropdown");
 btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
 });
+
+/////////////////////////////////////////////////////
+/*Scroll back to top*/
+const goTop = document.querySelector(".back-top");
+window.onscroll = () => {
+  if (window.pageYOffset < 700) {
+    goTop.style.display = "none";
+  } else {
+    goTop.style.display = "block";
+  }
+};
+///////////////////////////////////////////////////////////////////////////////////* Set current year*/
+const yearEl = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear;

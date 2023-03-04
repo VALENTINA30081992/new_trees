@@ -933,4 +933,32 @@ img[name=close-outline] {
 .footer__copyright__terms a:hover, .footer__copyright__terms a a:hover {
   color: #fff;
   text-decoration: underline;
+}
+
+.back-top {
+  display: none;
+  position: fixed;
+  right: 1.0416666667vw;
+  bottom: 3.125vw;
+  width: 2.6041666667vw;
+  height: 2.6041666667vw;
+  background-color: rgba(56, 102, 65, 0.448);
+  border-radius: 0.2604166667vw;
+  transition: 0.3s;
+}
+.back-top:hover {
+  background-color: rgba(56, 102, 65, 0.948);
+}
+.back-top a {
+  opacity: 0.4;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+}
+.back-top a:hover {
+  opacity: 1;
+}
+.back-top a img {
+  height: 2.0833333333vw;
+  width: 2.0833333333vw;
 }/*# sourceMappingURL=main.css.map */
