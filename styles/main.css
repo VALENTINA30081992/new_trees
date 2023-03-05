@@ -260,6 +260,7 @@ button a {
   height: 2.5vw;
   width: 2.5vw;
   color: #333;
+  filter: brightness(0) invert(10);
 }
 
 img[name=close-outline] {

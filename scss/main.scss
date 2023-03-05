@@ -273,6 +273,7 @@ button a {
     height: 48 / $width * 100vw;
     width: 48 / $width * 100vw;
     color: #333;
+    filter: brightness(0) invert(10);
   }
 }
 img[name="close-outline"] {
