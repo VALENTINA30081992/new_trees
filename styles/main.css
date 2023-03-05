@@ -172,7 +172,6 @@ button a {
   background-color: rgba(56, 102, 65, 0.795);
   display: none;
   padding: 0.2083333333vw 1.0416666667vw;
-  transform: translate(-1.0416666667vw, 2.0833333333vw);
   border-radius: 0.2604166667vw;
 }
 .dropdown .header__wrapper-bottom .header__main-list__submenu__child {

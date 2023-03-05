@@ -83,7 +83,6 @@
     width: 14.880952381vw;
     margin-top: 0;
     padding: 0.2976190476vw 1.4880952381vw;
-    transform: translate(-1.4880952381vw, 2.9761904762vw);
     border-radius: 0.3720238095vw;
   }
   .dropdown .header__wrapper-bottom .header__main-list__submenu__child {
@@ -613,7 +612,6 @@
     width: 21.186440678vw;
     margin-top: 0;
     padding: 0.4237288136vw 2.1186440678vw;
-    transform: translate(-2.1186440678vw, 4.2372881356vw);
     border-radius: 0.5296610169vw;
   }
   .dropdown .header__wrapper-bottom .header__main-list__submenu__child {
@@ -1150,7 +1148,6 @@
     background-color: rgb(56, 102, 65);
     display: none;
     padding: 0.4237288136vw 2.1186440678vw;
-    transform: translate(15.8898305085vw, 1.0593220339vw);
     border-radius: 0.5296610169vw;
   }
   .dropdown .header__wrapper-bottom .header__main-list__submenu__child {
@@ -1318,7 +1315,6 @@
     width: 28.4090909091vw;
     margin-top: 0;
     padding: 0.5681818182vw 2.8409090909vw;
-    transform: translate(-2.8409090909vw, 5.6818181818vw);
     border-radius: 0.7102272727vw;
   }
   .dropdown .header__wrapper-bottom .header__main-list__submenu__child {
@@ -1878,7 +1874,6 @@
     width: 36.7647058824vw;
     margin-top: 0;
     padding: 0.7352941176vw 3.6764705882vw;
-    transform: translate(-3.6764705882vw, 7.3529411765vw);
     border-radius: 0.9191176471vw;
   }
   .dropdown .header__wrapper-bottom .header__main-list__submenu__child {
