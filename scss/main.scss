@@ -12,6 +12,7 @@ body {
   font-weight: 400;
   color: #555;
   overflow-x: hidden;
+  position: relative;
 }
 .container-min {
   min-width: 1000 / $width * 100vw;
@@ -501,6 +502,7 @@ img[name="close-outline"] {
       }
     }
     &__img-box__video-img {
+      position: relative;
       height: 295 / $width * 100vw;
       width: 525 / $width * 100vw;
       border: 20 / $width * 100vw solid white;
@@ -517,6 +519,48 @@ img[name="close-outline"] {
     }
   }
 }
+
+.popup {
+  display: none;
+  &__body {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1500;
+  }
+  &__youtube {
+    flex-grow: 1;
+    margin: 25 / $width * 100vw;
+    padding: 45 / $width * 100vw 0;
+    position: relative;
+
+    iframe {
+      aspect-ratio: 16 / 9;
+      width: 100%;
+      height: 100%;
+    }
+
+    a {
+      text-decoration: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      padding-left: 30 / $width * 100vw;
+      background: url("../images/close-outline.svg") no-repeat left center;
+      filter: brightness(0) invert(10);
+      background-size: 30 / $width * 100vw;
+      color: #fff;
+    }
+  }
+}
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /**********FAVORITES ****************/
 .favorites {

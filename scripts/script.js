@@ -101,3 +101,15 @@ window.onscroll = () => {
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
+
+///----pop-up
+function PopUpShow() {
+  $(".popup").show();
+}
+function PopUpHide() {
+  $(".popup").hide();
+}
+
+$(".popup").on("click", function () {
+  PopUpHide();
+});
