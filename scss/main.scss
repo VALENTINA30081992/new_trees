@@ -595,7 +595,7 @@ img[name="close-outline"] {
   }
 
   &__box {
-    padding: 60 / $width * 100vw 0 60 / $width * 100vw 0;
+    padding: 48 / $width * 100vw 0 60 / $width * 100vw 0;
     text-align: center;
     width: 1170 / $width * 100vw;
     height: 413 / $width * 100vw;
@@ -620,12 +620,12 @@ img[name="close-outline"] {
     border-radius: 10 / $width * 100vw;
     transition: 0.7s;
     h3 {
-      margin-top: 20 / $width * 100vw;
+      margin-top: 28 / $width * 100vw;
       font-weight: 700;
       font-size: 22 / $width * 100vw;
       line-height: 30 / $width * 100vw;
       color: #202020;
-      margin-bottom: 25 / $width * 100vw;
+      margin-bottom: 17 / $width * 100vw;
     }
     &:hover {
       background: #386641;
@@ -676,7 +676,6 @@ img[name="close-outline"] {
     }
   }
   &__price {
-    margin-top: 7 / $width * 100vw;
     flex-grow: 1;
     display: flex;
     justify-content: space-between;
