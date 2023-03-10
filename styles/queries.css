@@ -1939,10 +1939,11 @@
   .hero__img-box {
     margin-top: 3.6764705882vw;
     margin-left: 5.5147058824vw;
+    margin-right: 5.5147058824vw;
   }
   .hero__img-box__img {
     object-fit: cover;
-    width: 95.5882352941vw;
+    width: 90.0735294118vw;
     height: 73.5294117647vw;
   }
   .hero__text-box {
@@ -2008,17 +2009,17 @@
     line-height: 5.1470588235vw;
   }
   .services__gallery {
-    grid-template-columns: 45.0367647059vw 45.0367647059vw;
+    grid-template-columns: 90.0735294118vw;
     justify-content: space-between;
     padding-bottom: 9.5588235294vw;
   }
   .services__gallery__transform {
-    height: 40.4411764706vw;
-    width: 45.0367647059vw;
+    height: 58.8235294118vw;
+    width: 71.6911764706vw;
   }
   .services__gallery__transform__item img {
-    height: 33.0882352941vw;
-    width: 45.0367647059vw;
+    height: 51.4705882353vw;
+    width: 71.6911764706vw;
   }
   .services__gallery__transform__content {
     height: 7.3529411765vw;
