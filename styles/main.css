@@ -517,7 +517,7 @@ img[name=close-outline] {
 }
 .popup__youtube {
   flex-grow: 1;
-  margin: 1.3020833333vw;
+  margin: 3.3854166667vw;
   padding: 2.34375vw 0;
   position: relative;
 }
@@ -529,7 +529,7 @@ img[name=close-outline] {
 .popup__youtube a {
   text-decoration: none;
   position: absolute;
-  top: 0;
+  top: 0.5208333333vw;
   right: 0;
   display: block;
   padding-left: 1.5625vw;

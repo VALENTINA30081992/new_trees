@@ -550,7 +550,7 @@ img[name="close-outline"] {
   }
   &__youtube {
     flex-grow: 1;
-    margin: 25 / $width * 100vw;
+    margin: 65 / $width * 100vw;
     padding: 45 / $width * 100vw 0;
     position: relative;
 
@@ -563,7 +563,7 @@ img[name="close-outline"] {
     a {
       text-decoration: none;
       position: absolute;
-      top: 0;
+      top: 10 / $width * 100vw;
       right: 0;
       display: block;
       padding-left: 30 / $width * 100vw;
